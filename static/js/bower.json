@@ -1,0 +1,29 @@
+{
+  "name": "hope",
+  "homepage": "https://github.com/totalgood/hope",
+  "authors": [
+    "Hobson Lane <github@totalgood.com>"
+  ],
+  "description": "hopeful chatbot",
+  "main": "\"./static/js/hope.js\"",
+  "keywords": [
+    "chat",
+    "anti-bullying",
+    "mediation",
+    "sentiment",
+    "analysis",
+    "nlp"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "^15.2.1",
+    "jquery": "^3.1.0"
+  }
+}
