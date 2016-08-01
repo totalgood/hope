@@ -31,7 +31,7 @@ if [[ "$DISTRIB" == "conda" ]]; then
 elif [[ "$DISTRIB" == "ubuntu" ]]; then
     sudo apt-get install -y postgresql-server-dev-all
     sudo apt-get install -y python3-psycopg2
-    sudo apt-get install -y python3-pip
+    sudo apt-get install -y python-pandas
 fi
 
 if [[ "$COVERAGE" == "true" ]]; then
