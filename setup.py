@@ -8,6 +8,7 @@
     http://pyscaffold.readthedocs.org/
 """
 
+from __future__ import absolute_import
 import sys
 from setuptools import setup
 
