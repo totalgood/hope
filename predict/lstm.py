@@ -1,5 +1,5 @@
 r"""Train a tweet sentiment analyzer"""
-from __future__ import print_function
+from __future__ import print_function, division, unicode_literals, absolute_import
 import six.moves.cPickle as pickle
 
 from collections import OrderedDict
@@ -12,7 +12,7 @@ from theano import config
 import theano.tensor as tensor
 from theano.sandbox.rng_mrg import MRG_RandomStreams as RandomStreams
 
-import imdb
+from . import imdb
 
 datasets = {'imdb': (imdb.load_data, imdb.prepare_data)}
 
