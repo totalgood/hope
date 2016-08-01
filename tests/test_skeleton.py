@@ -6,7 +6,7 @@ from hope.skeleton import fib
 
 __author__ = "Hobson Lane"
 __copyright__ = "Hobson Lane"
-__license__ = "none"
+__license__ = "mit"
 
 
 def test_fib():

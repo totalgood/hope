@@ -25,7 +25,7 @@ from hope import __version__
 
 __author__ = "Hobson Lane"
 __copyright__ = "Hobson Lane"
-__license__ = "none"
+__license__ = "mit"
 
 _logger = logging.getLogger(__name__)
 
