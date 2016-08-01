@@ -1,19 +1,21 @@
-====
-hope
-====
+Hope |master build test on travis|
+==================================
 
-
-Add a short description here!
-
+A hopeful, thoughtful chatbot.
 
 Description
-===========
+-----------
 
-A LONGER DESCRIPTION OF YOUR PROJECT GOES HERE...
+Detect and predict sarcasm and bullying in order to mediate conflicts
+and create a more compassionate social network.
 
+References
+----------
 
-Note
-====
+-  `PyDx
+   Proposal <https://github.com/totalgood/hope/blob/master/docs/PyDx%20Proposal.md>`__
+-  `Academic
+   Papers <https://github.com/totalgood/hope/blob/master/docs/PyDx%20Proposal.md>`__
 
-This project has been set up using PyScaffold 2.5.6. For details and usage
-information on PyScaffold see http://pyscaffold.readthedocs.org/.
+.. |master build test on travis| image:: https://travis-ci.org/totalgood/hope.svg?branch=master
+   :target: https://travis-ci.org/totalgood/hope/builds
