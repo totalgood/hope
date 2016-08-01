@@ -29,7 +29,9 @@ if [[ "$DISTRIB" == "conda" ]]; then
     source activate testenv
 
 elif [[ "$DISTRIB" == "ubuntu" ]]; then
-    # Use standard ubuntu packages in their default version
+    sudo apt-get install -y postgresql-server-dev-all
+    sudo apt-get install -y python3-psycopg2
+    sudo apt-get install -y python3-pip
 fi
 
 if [[ "$COVERAGE" == "true" ]]; then
