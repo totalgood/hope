@@ -1,5 +1,6 @@
 r"""Train a tweet sentiment analyzer"""
 from __future__ import print_function
+from __future__ import absolute_import
 from six.moves import xrange  # noqa
 import six.moves.cPickle as pickle
 
@@ -8,6 +9,8 @@ import os
 
 import numpy
 import theano
+from six.moves import range
+from six.moves import zip
 
 
 def prepare_data(seqs, labels, maxlen=None):
@@ -153,7 +156,7 @@ def load_data(path="imdb.pkl", n_words=100000, valid_portion=0.1, maxlen=None,
     test_set_x = remove_unk(test_set_x)
 
     def len_argsort(seq):
-        return sorted(range(len(seq)), key=lambda x: len(seq[x]))
+        return sorted(list(range(len(seq))), key=lambda x: len(seq[x]))
 
     if sort_by_len:
         sorted_index = len_argsort(test_set_x)

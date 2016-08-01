@@ -13,6 +13,8 @@ import theano.tensor as tensor
 from theano.sandbox.rng_mrg import MRG_RandomStreams as RandomStreams
 
 from . import imdb
+from six.moves import range
+from six.moves import zip
 
 datasets = {'imdb': (imdb.load_data, imdb.prepare_data)}
 
@@ -46,7 +48,7 @@ def get_minibatches_idx(n, minibatch_size, shuffle=False):
         # Make a minibatch out of what is left
         minibatches.append(idx_list[minibatch_start:])
 
-    return zip(range(len(minibatches)), minibatches)
+    return list(zip(list(range(len(minibatches))), minibatches))
 
 
 def get_dataset(name):
@@ -226,7 +228,7 @@ def sgd(lr, tparams, grads, x, mask, y, cost):
     f_grad_shared = theano.function([x, mask, y], cost, updates=gsup,
                                     name='sgd_f_grad_shared')
 
-    pup = [(p, p - lr * g) for p, g in zip(tparams.values(), gshared)]
+    pup = [(p, p - lr * g) for p, g in zip(list(tparams.values()), gshared)]
 
     # Function that updates the weights from the previously computed
     # gradient.
@@ -288,7 +290,7 @@ def adadelta(lr, tparams, grads, x, mask, y, cost):
                                      running_grads2)]
     ru2up = [(ru2, 0.95 * ru2 + 0.05 * (ud ** 2))
              for ru2, ud in zip(running_up2, updir)]
-    param_up = [(p, p + ud) for p, ud in zip(tparams.values(), updir)]
+    param_up = [(p, p + ud) for p, ud in zip(list(tparams.values()), updir)]
 
     f_update = theano.function([lr], [], updates=ru2up + param_up,
                                on_unused_input='ignore',
@@ -354,7 +356,7 @@ def rmsprop(lr, tparams, grads, x, mask, y, cost):
                  for ud, zg, rg, rg2 in zip(updir, zipped_grads, running_grads,
                                             running_grads2)]
     param_up = [(p, p + udn[1])
-                for p, udn in zip(tparams.values(), updir_new)]
+                for p, udn in zip(list(tparams.values()), updir_new)]
     f_update = theano.function([lr], [], updates=updir_new + param_up,
                                on_unused_input='ignore',
                                name='rmsprop_f_update')
