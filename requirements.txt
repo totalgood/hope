@@ -8,9 +8,9 @@ django-pipeline-browserify==0.4.1
 djangorestframework==3.4.0
 ipython==5.0.0
 ipython-genutils==0.1.0
-Lasagne
+Lasagne==0.1
 modernize==0.5
-nolearn
+nolearn==0.5
 numpy==1.11.1
 pandas==0.18.1
 pexpect==4.2.0
@@ -26,6 +26,6 @@ pytz==2016.6.1
 scipy==0.18
 simplegeneric==0.8.1
 six==1.10.0
-Theano
+Theano==0.8.2
 traitlets==4.2.2
 wcwidth==0.1.7
