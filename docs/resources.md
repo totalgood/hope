@@ -10,10 +10,15 @@
 [2]: http://www.aclweb.org/anthology/P11-2102 "Identifying Sarcasm on Twitter"
 [3]: http://jezebel.com/gamergate-trolls-arent-ethics-crusaders-theyre-a-hate-1644984010 "#Gamergate Trolls Aren't Ethics Crusaders; They're a Hate Group"
 [4]: http://ahnjune.com/wp-content/uploads/2011/11/0Final-Ahn2011JASIST.pdf "The Effect of Social Network Sites on Adolescents' Social and Academic Development"
+[Warner]: http://www.aclweb.org/anthology/W12-2103 "Detecting Hate Speech on the World Wide Web"
+[Xiang]: http://www.cs.cmu.edu/~lingwang/papers/sp250-xiang.pdf "Detecting Offensive Tweets via Topical Feature Discovery"
+[Jones]: http://www.noswearing.com/about.php "No Swear List & Curse Filter"
 
 ## Data
+Sc1enceClosedOpened
 
 - [twitter corpora and lexica](http://saifmohammad.com/WebPages/lexicons.html)
+- [niderhoff list of NLP datasets](https://github.com/niderhoff/nlp-datasets)
 
 ## Software Tutorials
 
