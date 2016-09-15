@@ -9,3 +9,23 @@ There are two approaches to chatbots that are working pretty well right now. We'
 So once you teach your bot manners you can expand its repertoire more quickly with Machine Learning. Like an authoritarian, over-protective parent you can discover the magic of letting a child learn from its own mistakes and successes. And eventually you can no longer tell them to "do what I say, not what I do." That's the approach of bots like "Salvius" (`ChatterBot`). Salvius imitates the conversations he sees his parents (the human race) to. So all you need to do is socialize him by giving him a homelessman disguise and he'll learn from the conversations of all the passersby around him. Or, if you want to give him a crash course, just feed him a bunch of "call and response" musical lyrics or Shakespeare dialog and he'll be speaking like a born thesbian in no time. You can culture your bot any way you like.
 
 When we first domesticated wolves and ungulates, we chose those that were most domesticatable. When we tried with foxes and bears and other animals, we quickly learned our lesson that some things are teachable and some things aren't. Those that could obey our rules, like sitting back away from the campfire and hearth and waiting us to finish our meal before cleaning up our scraps. But they weren't pups when we first encountered them. When we raise our own children we just use baby talk to get their mouths moving and try to have conversations around them so they know what conversations look like. So we're going to start with Salvius, the imitation bot by Gunther Cox (who started the Salvious project as a High School science experiment!).
+
+
+## Algorithm Ideas
+
+- analogy/generalization mad libs:
+  - find words that appear in both statement and response
+  - replace these paired words with their part of speech or some other "word type" in a separate statement_template, resonse_template DB record
+  - for matches on these madlibs sentences that happen to be off on this filler word then transfer the missing word from the statement to the response
+  - hack: surround all such words with -<{}>- to make them match levenshtein distance even when paired words don't match
+- 4-D GIS index on LDA topic vectors for statements and responses
+
+## Plan
+
+1. train ChatterBot on tweets and other dialog DBs in data/
+2. draft slides
+3. add sentiment analysis within ChatterBot framework
+4. convert to postgres on `hope` django app
+5. implement madlibs hack
+6. add twip predictor to ChatterBot logic
+7. add tests and get them passing
