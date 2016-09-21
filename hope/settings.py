@@ -14,6 +14,7 @@ import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+APP_NAME = os.path.basename(os.path.dirname(os.path.abspath(__file__)))
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.normpath(os.path.join(BASE_DIR, 'static'))
@@ -49,7 +50,9 @@ INSTALLED_APPS = [
     'pipeline',
     'rest_framework',
 
-    'predict',
+    'chatterbot.ext.django_chatterbot',
+    'chatterbot_app',
+    # 'predict',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -134,7 +137,11 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 # STATIC_ROOT = os.path.normpath(os.path.join(BASE_DIR, 'static'))
-# STATICFILES_DIRS = ()
+STATICFILES_DIRS = (
+    os.path.normpath(os.path.join(BASE_DIR, 'static')),
+    os.path.normpath(os.path.join(BASE_DIR, APP_NAME, 'static')),
+    os.path.normpath(os.path.join(BASE_DIR, 'chatterbot_app', 'static')),
+    )
 
 # Django Pipeline (and browserify)
 STATICFILES_STORAGE = 'pipeline.storage.PipelineCachedStorage'
@@ -174,5 +181,34 @@ PIPELINE_JS = {
             'js/app.browserify.js',
         ),
         'output_filename': 'js/hope_js.js',
+    }
+}
+
+PIPELINE = {
+    'PIPELINE_ENABLED': True,
+    'STYLESHEETS': {
+        'hopestyle': {
+            'source_filenames': (
+              'css/bootstrap.css',
+              # 'css/colors/*.css',
+              # 'css/layers.css'
+            ),
+            'output_filename': 'css/compressed_hopestyle.css',
+            'extra_context': {
+                'media': 'screen,projection',
+            },
+        },
+    },
+    'JAVASCRIPT': {
+        'hope': {
+            'source_filenames': (
+              'js/jquery.js',
+              'js/bootstrap.js',
+              # 'js/d3.js',
+              # 'js/collections/*.js',
+              # 'js/application.js',
+            ),
+            'output_filename': 'js/compresed_hope.js',
+        }
     }
 }
