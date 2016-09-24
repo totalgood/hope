@@ -34,10 +34,18 @@ The bots that try to be popular<br>
 
 ---
 
-## Smart, Interesting bots
+## Smart, Useful bots
 
-* Google Assistant
+* Google Now ("OK Google")
 * Siri
+* Allo (Google Assistant)
+
+<div><aside class="notes">
+You probably don't think of these as chat bots<br>
+But they are<br>
+They just have voice recognition layer on top<br>
+I'll show you how to add that to your bots too! (Sphinx)<br>
+</aside></div>
 
 ---
 
@@ -105,10 +113,16 @@ When we first domesticated wolves and ungulates, we chose those that were most d
 
 ## Plan
 
-1. train ChatterBot on tweets and other dialog DBs in data/
-2. draft slides
-3. add sentiment analysis within ChatterBot framework
-4. convert to postgres on `hope` django app
-5. implement madlibs hack
-6. add twip predictor to ChatterBot logic
-7. add tests and get them passing
+[*] draft slides
+
+[ ] train ChatterBot on tweets and other dialog DBs in data/
+[ ] script to convert lines of text (with empty lines to break) into Chatterbot Conversations json
+[ ] train ChatterBot on Shakespear and copy sqlite DB to separate file
+[ ] matched text (response_to: ) along side the response in small text.
+[ ] add sentiment analysis within ChatterBot framework
+[*] install ChatterBot in `hope` django project/apps
+[ ] convert to postgres on `hope` django app
+[ ] implement madlibs hack
+[ ] add twip predictor to ChatterBot logic
+[ ] add tests and get them passing
+[ ] add datetime extractor to logic
