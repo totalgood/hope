@@ -11,9 +11,10 @@ https://docs.djangoproject.com/en/1.9/ref/settings/
 """
 
 import os
+from .constants import DB_PATH, PROJECT_ROOT, MODULE_ROOT
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = PROJECT_ROOT
 APP_NAME = os.path.basename(os.path.dirname(os.path.abspath(__file__)))
 
 STATIC_URL = '/static/'
@@ -93,7 +94,7 @@ WSGI_APPLICATION = 'hope.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': DB_PATH,
     }
 }
 

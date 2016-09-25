@@ -1,5 +1,7 @@
 import os
 
+from hope.constants import DB_PATH
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 APP_NAME = os.path.basename(os.path.dirname(os.path.abspath(__file__)))
@@ -69,7 +71,7 @@ WSGI_APPLICATION = 'chatterbot_app.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': DB_PATH,
     }
 }
 
