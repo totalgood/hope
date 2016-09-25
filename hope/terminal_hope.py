@@ -12,8 +12,9 @@ from termcolor import colored
 import getpass
 import datetime
 
+import django
 # from django.core.wsgi import get_wsgi_application
-from chatterbot_app import settings
+import chatterbot_app.settings
 
 from hope import __version__
 from .constants import DB_PATH
@@ -142,7 +143,8 @@ def main(args):
 def run():
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "chatterbot_app.settings")
     # application = get_wsgi_application()
-    settings.configure()
+    # chatterbot_app.settings.configure()
+    django.setup()
     main(sys.argv[1:])
 
 

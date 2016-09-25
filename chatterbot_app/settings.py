@@ -19,6 +19,10 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 
+CHATTERBOT = {
+    'name': 'Hope'
+}
+
 # Application definition
 
 INSTALLED_APPS = (
