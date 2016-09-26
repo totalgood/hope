@@ -62,7 +62,7 @@ def wake_hope(name="Hope", human_name="", loglevel=logging.INFO, database=DB_PAT
         try:
             # TerminalAdapter doesn't require any args
             bot_input = bot.get_response(None)
-            print(colored(str(bot_input) + '\r', 'grey'))
+            print(colored(str(bot_input) + '\r', 'yellow'))
 
         # Press ctrl-c or ctrl-d on the keyboard to exit
         except (KeyboardInterrupt, EOFError, SystemExit):
