@@ -1,6 +1,6 @@
 # Add your requirements here like:
 # numpy
-chatterbot<0.5.0,>=0.4.7
+chatterbot>=0.5.0
 coverage==4.2
 decorator==4.0.10
 Django<2.0.0,>=1.8.0

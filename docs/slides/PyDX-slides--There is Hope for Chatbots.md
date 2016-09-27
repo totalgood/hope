@@ -12,18 +12,6 @@ center: false
 
 ---
 
-## I'm not talking about Siri
-
-* Chatbots carry on dialog in text
-* Not speech
-
-
-* TTS State of the Art: [WaveNet](https://arxiv.org/pdf/1609.03499.pdf)
-* STT State of the Art: [WaveNet](https://arxiv.org/pdf/1609.03499.pdf)
-
-
----
-
 ## Chatbots are
 
 * Annoying
@@ -32,7 +20,7 @@ center: false
 
 > * Basically they are like <insert your least favorite politician here>
 
-<div><aside class="notes">
+<div><aside data-markdown class='notes'>
 TRUMP<br>
 Or at least bots like **Tai** are<br>
 The bots that try to be popular<br>
@@ -214,7 +202,56 @@ Positivity / Sarcasm - Intensity - Negativity / Sarcasm + Readability + Chat Age
 
 ---
 
----
+## New Hope
+
+- Grammar: [SyntaxNet](https://github.com/tensorflow/models/tree/master/syntaxnet)
+- Statistics: [Word2Vec & Gensim](https://radimrehurek.com/gensim/models/word2vec.html)
+- Text: [Gutenberg](https://en.wikipedia.org/wiki/Project_Gutenberg)
+- N-Grams: [Google Books](http://storage.googleapis.com/books/ngrams/books/datasetsv2.html)
+- Knowledge: [YAGO](https://en.wikipedia.org/wiki/YAGO_(database))
+
+<div><aside data-markdown class='notes'>
+
+**SyntaxNet** Parsey McParseface
+* POS tagging
+* syntax/dependency tree  
+  
+**Word2Vec**  
+* Pretrained High-Fi Vectors for WSJ language  
+* Not good for informal slang  
+* Easy to train on tweets and other "one-liner" sources  
+
+**Gutenberg**
+* Pre 1950's only
+* Full text
+* No tech terms
+
+**N-Grams**
+* 1-5-grams
+* Occurr at least 40 times
+* 15% of all books
+* Lots of modern tech jargon!
+* Great for word "age" tagging
+
+**YAGO** yet another great ontology   
+* 95% accurate  
+* core to Watson  
+* DBPedia, SUMO, WordNet  
+
+</aside></div>
+--- 
+
+## I Want Hope to Talk!
+
+* Best Speech Recognition (: [WaveNet](https://arxiv.org/pdf/1609.03499.pdf)
+* Best Speech Synthesis (TTS): [WaveNet](https://arxiv.org/pdf/1609.03499.pdf)
+
+<div><aside data-markdown class='notes'>
+Best speech synthesis package in the world is open source!
+Best speech recognition packages are closed source
+But Kaldi and Sphinx are close behind
+And Speech recognition can be trained easily
+</aside></div>
 
 ---
 <div><aside class="notes">

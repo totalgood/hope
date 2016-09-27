@@ -8,20 +8,18 @@ import os
 import argparse
 import sys
 import logging
-from termcolor import colored
-import datetime
 import json
 
 import django
-# from django.core.wsgi import get_wsgi_application
-import chatterbot_app.settings
+from pugnlp.util import PrettyDict
 
 from hope import __version__
 from .constants import DB_PATH
-from pugnlp import PrettyDict
 
-from chatterbot import ChatBot
-from chatterbot.django_storage import DjangoStorageAdapter
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "chatterbot_app.settings")
+django.setup()
+
+from chatterbot.ext.django_chatterbot.models import Statement, Response
 
 DEFAULT_FILENAME = "newb+english.json"
 
@@ -34,13 +32,21 @@ logger = logging.getLogger(__name__)
 
 
 def load_json(filename=DEFAULT_FILENAME, loglevel=logging.INFO, database=DB_PATH):
-    full_path = os.path.join(os.path.dirname(os.path.abspath(database)), filename)
+    full_path = os.path.join(os.path.dirname(os.path.abspath(database)), 'corpora', filename)
     full_path = filename if not os.path.isfile(full_path) else full_path
     with open(full_path) as fin:
         js = json.load(fin)
+    logger.debug(str(PrettyDict(js)))
     js = js.get('export', js)
-    print(PrettyDict(js))
-    return js
+    num_statements = 0
+    for num_conversations, convo in enumerate(js):
+        for prompt_and_response in convo:
+            prompt, p_created = Statement.objects.get_or_create(text=prompt_and_response[0])
+            response, r_created = Statement.objects.get_or_create(text=prompt_and_response[1])
+            pair = Response.objects.get_or_create(prompt=prompt, response=response)
+            pair.occurrence += 1
+            num_statements += 2
+    return num_statements, num_conversations
 
 
 def parse_args(args):
@@ -99,18 +105,28 @@ def parse_args(args):
 
 def main(args):
     args = parse_args(args)
-    logger.debug("Loading {} into {}...".format(args.filename, args.database))
+    logger.info("Loading {} into {}...".format(args.filename, args.database))
+    total_statements = Statement.objects.count()
+    total_responses = Response.objects.count()
+    logger.debug("Before loading json data there were {} statements and {} unique statement-response pairs".format(
+        total_statements, total_responses))
+
     num_statements, num_conversations = load_json(filename=args.filename, loglevel=args.loglevel, database=args.database)
-    logger.info("{} statements for {} conversations and {} exports were loaded.".format(
-        num_statements, num_conversations, num_exports))
+
+    total_statements = Statement.objects.count()
+    total_responses = Response.objects.count()
+    logger.debug("After loading json data there were {} statements and {} unique statement-response pairs".format(
+        total_statements, total_responses))
+
+    logger.info("{} statements for {} conversations resulting in {} statements and {}  responses in the DB.".format(
+        num_statements, num_conversations, total_statements, total_responses))
 
 
 def run():
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "chatterbot_app.settings")
-    # application = get_wsgi_application()
-    # chatterbot_app.settings.configure()
     django.setup()
     main(sys.argv[1:])
+
 
 
 if __name__ == "__main__":

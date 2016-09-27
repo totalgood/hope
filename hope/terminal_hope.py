@@ -70,11 +70,13 @@ def wake_hope(name="Hope", human_name="", loglevel=logging.INFO, database=DB_PAT
 
 
 def parse_args(args):
-    """
-    Parse command line parameters
+    """Parse command line parameters
 
-    :param args: command line parameters as list of strings
-    :return: command line parameters as :obj:`argparse.Namespace`
+    Arguments:
+      args (list of str): command line parameters
+
+    Returns:
+      argparse.Namespace: object with an attribute for each command line arg
     """
     parser = argparse.ArgumentParser(
         description="Simple ChatterBot on stdin and stdout with database at {}".format(DB_PATH))
