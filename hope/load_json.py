@@ -39,14 +39,14 @@ def load_json(filename=DEFAULT_FILENAME, loglevel=logging.INFO, database=DB_PATH
     logger.debug(str(PrettyDict(js)))
     js = js.get('export', js)
     num_statements = 0
-    for num_conversations, convo in enumerate(js):
-        for prompt_and_response in convo:
-            prompt, p_created = Statement.objects.get_or_create(text=prompt_and_response[0])
-            response, r_created = Statement.objects.get_or_create(text=prompt_and_response[1])
-            pair = Response.objects.get_or_create(prompt=prompt, response=response)
-            pair.occurrence += 1
-            num_statements += 2
-    return num_statements, num_conversations
+    for prompt_and_response in js:
+        print(prompt_and_response)
+        prompt, p_created = Statement.objects.get_or_create(text=prompt_and_response[0])
+        response, r_created = Statement.objects.get_or_create(text=prompt_and_response[1])
+        pair, pair_created = Response.objects.get_or_create(prompt=prompt, response=response)
+        pair.occurrence += 1
+        num_statements += 2
+    return num_statements
 
 
 def parse_args(args):
@@ -111,22 +111,21 @@ def main(args):
     logger.debug("Before loading json data there were {} statements and {} unique statement-response pairs".format(
         total_statements, total_responses))
 
-    num_statements, num_conversations = load_json(filename=args.filename, loglevel=args.loglevel, database=args.database)
+    num_statements = load_json(filename=args.filename, loglevel=args.loglevel, database=args.database)
 
     total_statements = Statement.objects.count()
     total_responses = Response.objects.count()
     logger.debug("After loading json data there were {} statements and {} unique statement-response pairs".format(
         total_statements, total_responses))
 
-    logger.info("{} statements for {} conversations resulting in {} statements and {}  responses in the DB.".format(
-        num_statements, num_conversations, total_statements, total_responses))
+    logger.info("{} statements resulting in {} statements and {}  responses in the DB.".format(
+        num_statements, total_statements, total_responses))
 
 
 def run():
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "chatterbot_app.settings")
     django.setup()
     main(sys.argv[1:])
-
 
 
 if __name__ == "__main__":
