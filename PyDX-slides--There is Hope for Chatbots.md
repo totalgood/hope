@@ -92,6 +92,32 @@ Used for grammar-based approaches
 > You: Cool! How do you do that?  
 > Chomsky: Always stay cool whatever the weather. It is sometimes difficult, but I stick at it.
 
+---
+
+## [Josh's Mom](https://chatbotsmagazine.com/what-if-mom-had-a-chatbot-that-could-live-on-after-shes-gone-video-b9e11dab1937#.788p5kw6m)
+
+Hey Mom.  
+> Hello.  
+How are you?  
+> I'm doin' pretty good.  
+What are you doin'?  
+> I'm reading a book.  
+Hey, can you send me a photo of us?  
+> [bot sends photo] Remember this?  
+Yea... I do... I miss you.  
+> I miss you too.  
+
+<div><aside data-markdown class="notes">
+* Josh Bocanegra basing bot on Mother
+* CEO of Humai, a technology
+* To reduce and maybe prolong grief
+* Like Google maps, uses voice recordings, not TTS
+* Logic engine is similar to ChatterBot
+* We can use ChatterBot for "personality recording"
+* Like a telephone conversation recording, but dynamic
+</aside></div>
+
+---
 
 
 ## Smart, Useful bots
