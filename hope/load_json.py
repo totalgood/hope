@@ -19,7 +19,7 @@ from .constants import DB_PATH
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "chatterbot_app.settings")
 django.setup()
 
-from chatterbot.ext.django_chatterbot.models import Statement, Response
+from chatterbot.ext.django_chatterbot.models import Statement, Response  # noqa
 
 DEFAULT_FILENAME = "newb+english.json"
 
