@@ -44,6 +44,23 @@ Blends gramar-based rules with statistical approach (ML)
 
 ---
 
+Problem with Word2Vec
+
+> BFF
+> 4EVAH
+> XOXO
+> &h!t
+
+<div><aside data-markdown class='notes'>
+pretrained on WSJ formal english  
+emoticons  
+slang  
+cursing  
+obfuscation  
+
+</div></aside> 
+---
+
 ## Grammar-Based
 
 * subject: the "primary" noun active noun phrase of a sentence 
