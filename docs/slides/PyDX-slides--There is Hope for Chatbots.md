@@ -12,6 +12,16 @@ center: false
 
 ---
 
+* Why? It's Fun.
+* Stroll through the ChatBot Zoo (Pandorabot)
+* Two Approaches
+* Breakthroughs
+* Python Chatbot Frameworks
+* ChatterBot APIs
+* Demo
+
+---
+
 ## Chatbots are
 
 * Annoying
