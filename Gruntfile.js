@@ -1,5 +1,9 @@
 // Gruntfile.js
 
+function myFilterFunc(context: string):string {
+    return context;
+}
+
 // our wrapper function (required by grunt and its plugins)
 // all configuration goes inside this function
 module.exports = function(grunt) {
@@ -57,12 +61,17 @@ module.exports = function(grunt) {
       }
     },
 
+    // pandoc -t html5 --template=template-revealjs-grant.html
+    //        --standalone --section-divs --variable theme="moon" --variable transition="linear"
+    //        -i index.md -o index.html
     pandoc: {
-    index.html: { // OUTPUT file name 
+    toHTML5: { // OUTPUT file name 
       configs: {
-        "publish"   : 'html5',                 // Publish File Format. 
+        "variable"  : "transition=linear",
+        "variable"  : "theme=moon",
+        "publish"   : "html5",                 // Publish File Format. 
         "title"     : "Hope for Chatbots",        // EPUB Title 
-        "stylesheet": "docs/css/revealjs.css"     // EPUB include StyleSheet File Path. 
+        "stylesheet": "docs/css/revealjs.css",     // EPUB include StyleSheet File Path. 
         "filter"    : myFilterFunc            // Calling Before Execute Command. 
       },
       files: {
