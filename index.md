@@ -1,5 +1,4 @@
 ---
-layout: post
 title: There's Hope for Chatbots
 lang: en
 revealjs-url: ''  # for absolute path to lib/ and css/ folders use '/'
