@@ -61,9 +61,7 @@ module.exports = function(grunt) {
       }
     },
 
-    // pandoc -t html5 --template=template-revealjs-grant.html
-    //        --standalone --section-divs --variable theme="moon" --variable transition="linear"
-    //        -i index.md -o index.html
+    // pandoc -t html5 --template=template-revealjs-grant.html --standalone --section-divs --variable theme="moon" --variable transition="linear" -i index.md -o index.html
     pandoc: {
     toHTML5: { // OUTPUT file name 
       configs: {
