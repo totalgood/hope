@@ -39,7 +39,7 @@ The bots that try to be popular<br>
 
 ## I think there's hope for bots that are
 
-* Intersting
+* Interesting
 * Sensitive
 * Smart
 
@@ -47,7 +47,7 @@ The bots that try to be popular<br>
 
 ## Examples
 
-PandorBots(http://www.pandorabots.com/)
+[PandoraBots](http://www.pandorabots.com/)
 
 Blends gramar-based rules with statistical approach (ML)
 
@@ -55,10 +55,10 @@ Blends gramar-based rules with statistical approach (ML)
 
 Problem with Word2Vec
 
-> BFF
-> 4EVAH
-> XOXO
-> &h!t
+> BFF  
+> 4EVAH  
+> XOXO  
+> &h!t  
 
 <div><aside data-markdown class='notes'>
 pretrained on WSJ formal english  
