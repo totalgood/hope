@@ -224,7 +224,6 @@ Large ontology backend (knowledge base)
 
 > * YES!
 
-<<<<<<< HEAD
 <div><aside data-markdown class='notes'>
 Chatterbot allows plugin of multiple LogicAdapters
 So lets do them all!
@@ -315,6 +314,7 @@ Positivity / Sarcasm - Intensity - Negativity / Sarcasm + Readability + Chat Age
 - Knowledge: [YAGO](https://en.wikipedia.org/wiki/YAGO_(database))
 
 <div><aside data-markdown class='notes'>
+
 **SyntaxNet** Parsey McParseface
 * POS tagging
 * syntax/dependency tree  
