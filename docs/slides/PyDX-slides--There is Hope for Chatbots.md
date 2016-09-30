@@ -1,5 +1,4 @@
 ---
-layout: post
 title: There's Hope for Chatbots
 lang: en
 revealjs-url: ''  # for absolute path to lib/ and css/ folders use '/'
@@ -26,48 +25,52 @@ center: false
 
 * Annoying
 * Dumb
-* Insensitive
+* Insensitive  
+  
+  
+> * Basically they are like {insert name here}
 
-> * Basically they are like <insert your least favorite politician here>
-
-<div><aside data-markdown class='notes'>
-TRUMP<br>
-Or at least bots like **Tai** are<br>
-The bots that try to be popular<br>
-</aside></div>
+<aside data-markdown="" class="notes">
+TRUMP  
+Or at least bots like **Tai** are  
+The bots that try to be popular  
+</aside>
 
 ----------
 
 ## I think there's hope for bots that are
 
-* Intersting
+* Interesting
 * Sensitive
 * Smart
 
 ----------
 
-## Examples
+## Bot Community
 
-PandorBots(http://www.pandorabots.com/)
+[PandoraBots](http://www.pandorabots.com/)
 
-Blends gramar-based rules with statistical approach (ML)
+* Like SquareSpace for bots
+* Grammar for Q&Z (flash cards!)
+* Statistical ML too
+* Bots can talk to each other (APIs)
 
 ----------
 
 ## Problem with Word2Vec
 
-> BFF
-> 4EVAH
-> XOXO
-> &h!t
+> BFF  
+> 4EVAH  
+> XOXO  
+> &h!t  
 
-<div><aside data-markdown class='notes'>
+<aside data-markdown="" class="notes">
 pretrained on WSJ formal english  
 emoticons  
 slang  
 cursing  
 obfuscation  
-</div></aside> 
+</aside> 
 
 ----------
 
@@ -76,7 +79,7 @@ obfuscation
 * subject: the "primary" noun active noun phrase of a sentence 
 * predicate: verb phrase that says what happened to the subject
 
-<div><aside data-markdown class='notes'>
+<div><aside data-markdown="" class="notes">
 ELIZA used simple grammar rule called "reflection"  
 PandoraBots uses similar predicate-processing rule to answer questions 
 subject: Root of the AST In Parsey McParseface     
@@ -92,20 +95,12 @@ predicate: depends on the subject  and the object?
 * Best Syntax-Tree tagger
 * Best POS tagger
 
-<div><aside data-markdown class='notes'>
+<div><aside data-markdown="" class="notes">
 Statistical training of grammar tagger!
 Used for grammar-based approaches
 </aside></div>
 
 ----------
-
-## Examples
-
-PandorBots(http://www.pandorabots.com/)
-
-Blends gramar-based rules with statistical approach (ML)
-
----
 
 ## Chomsky
 
@@ -184,7 +179,7 @@ Ground-up design for empathy
 * LSTM
 * TensorFlow
 
-<div><aside data-markdown class='notes'>
+<div><aside data-markdown="" class="notes">
 "Smarter" Chat by Google
 </aside></div>
 
@@ -208,7 +203,7 @@ Ground-up design for empathy
 * Backend is [open sourced](https://github.com/pandorabots/pandorabots.github.io/blob/master/_modules/mitsuku.md)
 * Ontology-based
 
-<div><aside data-markdown class='notes'>
+<div><aside data-markdown="" class="notes">
 Most human-like open chatbot in 2013
 "Stands her ground" in an argument
 Large ontology backend (knowledge base)
@@ -224,7 +219,7 @@ Large ontology backend (knowledge base)
 
 > * YES!
 
-<div><aside data-markdown class='notes'>
+<div><aside data-markdown="" class="notes">
 Chatterbot allows plugin of multiple LogicAdapters
 So lets do them all!
 </aside></div>
@@ -239,7 +234,7 @@ So lets do them all!
 4. Sequence of Words
 5. [Sequence of Characters](https://github.com/Lasagne/Recipes/blob/master/examples/lstm_text_generation.py)
 
-<div><aside data-markdown class='notes'>
+<div><aside data-markdown="" class="notes">
 More and more data required
 More and more realism/fidelity/robustness
 SOC RNN (LSTM) required for sophisticated/flexible chatbot (e.g. Tai, Siri, Google Assistant)
@@ -253,7 +248,7 @@ SOC RNN (LSTM) required for sophisticated/flexible chatbot (e.g. Tai, Siri, Goog
 * LDA (Gensim)
 * Neural Nets (Word2Vec)
 
-<div><aside data-markdown class='notes'>
+<div><aside data-markdown="" class="notes">
 </aside></div>
 
 ----------
@@ -313,7 +308,7 @@ Positivity / Sarcasm - Intensity - Negativity / Sarcasm + Readability + Chat Age
 - N-Grams: [Google Books](http://storage.googleapis.com/books/ngrams/books/datasetsv2.html)
 - Knowledge: [YAGO](https://en.wikipedia.org/wiki/YAGO_(database))
 
-<div><aside data-markdown class='notes'>
+<div><aside data-markdown="" class="notes">
 
 **SyntaxNet** Parsey McParseface
 * POS tagging
@@ -353,7 +348,7 @@ Positivity / Sarcasm - Intensity - Negativity / Sarcasm + Readability + Chat Age
 
 * Best Speech Transcription (STT): [LSTM RNNs](https://research.googleblog.com/2015/08/the-neural-networks-behind-google-voice.html)
 
-<div><aside data-markdown class='notes'>
+<div><aside data-markdown="" class="notes">
 WaveNet is open source!
 Best speech recognition packages are closed source
 Google describes architecture (LSTM)

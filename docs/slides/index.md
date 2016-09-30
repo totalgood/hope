@@ -29,7 +29,7 @@ center: false
 
 > * Basically they are like <insert your least favorite politician here>
 
-<div><aside data-markdown class='notes'>
+<div><aside data-markdown="" class="notes">
 TRUMP<br>
 Or at least bots like **Tai** are<br>
 The bots that try to be popular<br>
@@ -60,14 +60,14 @@ Problem with Word2Vec
 > XOXO  
 > &h!t  
 
-<div><aside data-markdown class='notes'>
+<div><aside data-markdown="" class="notes">
 pretrained on WSJ formal english  
 emoticons  
 slang  
 cursing  
 obfuscation  
-
 </div></aside> 
+
 ----------
 
 ## Grammar-Based
@@ -75,7 +75,7 @@ obfuscation
 * subject: the "primary" noun active noun phrase of a sentence 
 * predicate: verb phrase that says what happened to the subject
 
-<div><aside data-markdown class='notes'>
+<div><aside data-markdown="" class="notes">
 ELIZA used simple grammar rule called "reflection"  
 PandoraBots uses similar predicate-processing rule to answer questions 
 subject: Root of the AST In Parsey McParseface     
@@ -91,7 +91,7 @@ predicate: depends on the subject  and the object?
 * Best Syntax-Tree tagger
 * Best POS tagger
 
-<div><aside data-markdown class='notes'>
+<div><aside data-markdown="" class="notes">
 Statistical training of grammar tagger!
 Used for grammar-based approaches
 </aside></div>
@@ -262,7 +262,7 @@ Positivity / Sarcasm - Intensity - Negativity / Sarcasm + Readability + Chat Age
 - N-Grams: [Google Books](http://storage.googleapis.com/books/ngrams/books/datasetsv2.html)
 - Knowledge: [YAGO](https://en.wikipedia.org/wiki/YAGO_(database))
 
-<div><aside data-markdown class='notes'>
+<div><aside data-markdown="" class="notes">
 **SyntaxNet** Parsey McParseface
 * POS tagging
 * syntax/dependency tree  
@@ -298,7 +298,7 @@ Positivity / Sarcasm - Intensity - Negativity / Sarcasm + Readability + Chat Age
 * Best Speech Recognition (: [WaveNet](https://arxiv.org/pdf/1609.03499.pdf)
 * Best Speech Synthesis (TTS): [WaveNet](https://arxiv.org/pdf/1609.03499.pdf)
 
-<div><aside data-markdown class='notes'>
+<div><aside data-markdown="" class="notes">
 Best speech synthesis package in the world is open source!
 Best speech recognition packages are closed source
 But Kaldi and Sphinx are close behind
