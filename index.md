@@ -1,5 +1,4 @@
 ---
-layout: post
 title: There's Hope for Chatbots
 lang: en
 revealjs-url: ''  # for absolute path to lib/ and css/ folders use '/'
@@ -54,7 +53,7 @@ Blends gramar-based rules with statistical approach (ML)
 
 ----------
 
-## Problem with Word2Vec
+Problem with Word2Vec
 
 > BFF
 > 4EVAH
@@ -67,8 +66,8 @@ emoticons
 slang  
 cursing  
 obfuscation  
-</div></aside> 
 
+</div></aside> 
 ----------
 
 ## Grammar-Based
@@ -98,14 +97,6 @@ Used for grammar-based approaches
 </aside></div>
 
 ----------
-
-## Examples
-
-PandorBots(http://www.pandorabots.com/)
-
-Blends gramar-based rules with statistical approach (ML)
-
----
 
 ## Chomsky
 
@@ -142,6 +133,7 @@ Yea... I do... I miss you.
 
 ----------
 
+
 ## Smart, Useful bots
 
 * Google Now ("OK Google")
@@ -173,22 +165,11 @@ Mimics your personality on FB (you're sensitive, aren't you?)
 
 ----------
 
-## Koko (MIT)
+* Koko (MIT)
 
 Ground-up design for empathy
 
 ----------
-
-## [Allo](https://research.googleblog.com/2016/05/chat-smarter-with-allo.html)
-
-* LSTM
-* TensorFlow
-
-<div><aside data-markdown class='notes'>
-"Smarter" Chat by Google
-</aside></div>
-
----
 
 ## Experiments
 
@@ -208,11 +189,11 @@ Ground-up design for empathy
 * Backend is [open sourced](https://github.com/pandorabots/pandorabots.github.io/blob/master/_modules/mitsuku.md)
 * Ontology-based
 
-<div><aside data-markdown class='notes'>
+<aside markdown-data class='notes'>
 Most human-like open chatbot in 2013
 "Stands her ground" in an argument
 Large ontology backend (knowledge base)
-</aside></div>
+</aside>
 
 ----------
 
@@ -223,39 +204,6 @@ Large ontology backend (knowledge base)
 * logical grammar?
 
 > * YES!
-
-<<<<<<< HEAD
-<div><aside data-markdown class='notes'>
-Chatterbot allows plugin of multiple LogicAdapters
-So lets do them all!
-</aside></div>
-
----
-
-## Statistical Language Models
-
-1. BOC (cryptography)
-2. BOW (spam filters)
-3. Bag of N-Grams
-4. Sequence of Words
-5. [Sequence of Characters](https://github.com/Lasagne/Recipes/blob/master/examples/lstm_text_generation.py)
-
-<div><aside data-markdown class='notes'>
-More and more data required
-More and more realism/fidelity/robustness
-SOC RNN (LSTM) required for sophisticated/flexible chatbot (e.g. Tai, Siri, Google Assistant)
-</aside></div>
-
-----------
-
-## Word Vectors
-
-* LSI/PCA (Gensim)
-* LDA (Gensim)
-* Neural Nets (Word2Vec)
-
-<div><aside data-markdown class='notes'>
-</aside></div>
 
 ----------
 
@@ -345,20 +293,16 @@ Positivity / Sarcasm - Intensity - Negativity / Sarcasm + Readability + Chat Age
 
 ---------- 
 
-## How Do I Make Hope Talk!
+## I Want Hope to Talk!
 
-* Best Speech Synthesizer (TTS): [WaveNet](https://arxiv.org/pdf/1609.03499.pdf)
-
-(and Listen)
-
-* Best Speech Transcription (STT): [LSTM RNNs](https://research.googleblog.com/2015/08/the-neural-networks-behind-google-voice.html)
+* Best Speech Recognition (: [WaveNet](https://arxiv.org/pdf/1609.03499.pdf)
+* Best Speech Synthesis (TTS): [WaveNet](https://arxiv.org/pdf/1609.03499.pdf)
 
 <div><aside data-markdown class='notes'>
-WaveNet is open source!
+Best speech synthesis package in the world is open source!
 Best speech recognition packages are closed source
-Google describes architecture (LSTM)
-and Speech recognition are easily trained
-and Kaldi, Sphinx are pretty good (Gaussian Mixture Models)
+But Kaldi and Sphinx are close behind
+And Speech recognition can be trained easily
 </aside></div>
 
 ----------
