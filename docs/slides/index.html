@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<title></title>
+
+<meta name="description" content="">    
+
+
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<link rel="stylesheet" href="css/reveal.min.css">
+  <link rel="stylesheet" href="css/theme/beige.css" id="theme">
+
+
+<!-- For syntax highlighting -->
+  <link rel="stylesheet" href="lib/css/zenburn.css">
+
+
+<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+<script>
+  document.write( '<link rel="stylesheet" href="css/print/' +
+    ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + 
+    '.css" type="text/css" media="print">' );
+</script>
+
+<!--[if lt IE 9]>
+<script src="lib/js/html5shiv.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+<div class="reveal">
+
+<!-- Any section element inside of this container is displayed as a slide -->
+<div class="slides">
+
+<section>
+<h1></h1>
+
+<p>
+<h4></h4>
+</p>
+</section>  
+
+
+<ul>
+<li>Why? It's Fun.</li>
+<li>Stroll through the ChatBot Zoo (Pandorabot)</li>
+<li>Two Approaches</li>
+<li>Breakthroughs</li>
+<li>Python Chatbot Frameworks</li>
+<li>ChatterBot APIs</li>
+<li>Demo</li>
+</ul>
+<hr />
+<section id="chatbots-are" class="level2">
+<h2>Chatbots are</h2>
+<ul>
+<li>Annoying</li>
+<li>Dumb</li>
+<li>Insensitive</li>
+</ul>
+<blockquote>
+<ul>
+<li>Basically they are like <insert your least favorite politician here></li>
+</ul>
+</blockquote>
+<div>
+<aside data-markdown class="notes">
+TRUMP<br> Or at least bots like <strong>Tai</strong> are<br> The bots that try to be popular<br>
+</aside>
+</div>
+<hr />
+</section>
+<section id="i-think-theres-hope-for-bots-that-are" class="level2">
+<h2>I think there's hope for bots that are</h2>
+<ul>
+<li>Intersting</li>
+<li>Sensitive</li>
+<li>Smart</li>
+</ul>
+<hr />
+</section>
+<section id="examples" class="level2">
+<h2>Examples</h2>
+<p>PandorBots(http://www.pandorabots.com/)</p>
+<p>Blends gramar-based rules with statistical approach (ML)</p>
+<hr />
+<p>Problem with Word2Vec</p>
+<blockquote>
+<p>BFF 4EVAH XOXO &amp;h!t</p>
+</blockquote>
+<div>
+<aside data-markdown class="notes">
+<p>pretrained on WSJ formal english<br />
+emoticons<br />
+slang<br />
+cursing<br />
+obfuscation</p>
+</div>
+</aside>
+<hr />
+</section>
+<section id="grammar-based" class="level2">
+<h2>Grammar-Based</h2>
+<ul>
+<li>subject: the &quot;primary&quot; noun active noun phrase of a sentence</li>
+<li>predicate: verb phrase that says what happened to the subject</li>
+</ul>
+<div>
+<aside data-markdown class="notes">
+ELIZA used simple grammar rule called &quot;reflection&quot;<br />
+PandoraBots uses similar predicate-processing rule to answer questions subject: Root of the AST In Parsey McParseface<br />
+predicate: depends on the subject and the object?
+</aside>
+</div>
+<hr />
+</section>
+<section id="parsey-mcparsefacehttpsresearch.googleblog.com201605announcing-syntaxnet-worlds-most.html" class="level2">
+<h2>Parsey McParseface](https://research.googleblog.com/2016/05/announcing-syntaxnet-worlds-most.html)</h2>
+<p><strong><a href="https://github.com/tensorflow/models/tree/master/syntaxnet">SyntaxNet</a></strong></p>
+<ul>
+<li>Best Syntax-Tree tagger</li>
+<li>Best POS tagger</li>
+</ul>
+<div>
+<aside data-markdown class="notes">
+Statistical training of grammar tagger! Used for grammar-based approaches
+</aside>
+</div>
+<hr />
+</section>
+<section id="chomsky" class="level2">
+<h2>Chomsky</h2>
+<blockquote>
+<p>You: What's up?<br />
+Chomsky: I am chatting with my friends on the internet.<br />
+You: Cool! How do you do that?<br />
+Chomsky: Always stay cool whatever the weather. It is sometimes difficult, but I stick at it.</p>
+</blockquote>
+<hr />
+</section>
+<section id="joshs-mom" class="level2">
+<h2><a href="https://chatbotsmagazine.com/what-if-mom-had-a-chatbot-that-could-live-on-after-shes-gone-video-b9e11dab1937#.788p5kw6m">Josh's Mom</a></h2>
+<p>Hey Mom.<br />
+&gt; Hello.<br />
+How are you?<br />
+&gt; I'm doin' pretty good.<br />
+What are you doin'?<br />
+&gt; I'm reading a book.<br />
+Hey, can you send me a photo of us?<br />
+&gt; [bot sends photo] Remember this?<br />
+Yea... I do... I miss you.<br />
+&gt; I miss you too.</p>
+<div>
+<aside data-markdown class="notes">
+<ul>
+<li>Josh Bocanegra basing bot on Mother</li>
+<li>CEO of Humai, a technology</li>
+<li>To reduce and maybe prolong grief</li>
+<li>Like Google maps, uses voice recordings, not TTS</li>
+<li>Logic engine is similar to ChatterBot</li>
+<li>We can use ChatterBot for &quot;personality recording&quot;</li>
+<li>Like a telephone conversation recording, but dynamic</li>
+</ul>
+</aside>
+</div>
+<hr />
+</section>
+<section id="smart-useful-bots" class="level2">
+<h2>Smart, Useful bots</h2>
+<ul>
+<li>Google Now (&quot;OK Google&quot;)</li>
+<li>Siri</li>
+<li>Allo (Google Assistant)</li>
+</ul>
+<div>
+<aside data-markdown class="notes">
+You probably don't think of these as chat bots But they are They just have voice recognition layer on top I'll show you how to add that to your bots too! (Sphinx)
+</aside>
+</div>
+<hr />
+</section>
+<section id="sensitive-bots" class="level2">
+<h2>Sensitive Bots</h2>
+<hr />
+<ul>
+<li><a href="https://techcrunch.com/2015/02/20/viv-built-by-siris-creators-scores-12-5-million-for-an-ai-technology-that-can-teach-itself/">Viv</a>: Dag Kittlaus</li>
+</ul>
+<p>Siri, but smarter</p>
+<hr />
+<ul>
+<li><a href="http://www.lifehacker.com.au/2016/05/meet-viv-the-future-of-chatbots-and-artificial-intelligence/">The Chatbot Club</a>: Linda Chang</li>
+</ul>
+<p>Mimics your personality on FB (you're sensitive, aren't you?)</p>
+<hr />
+<ul>
+<li>Koko (MIT)</li>
+</ul>
+<p>Ground-up design for empathy</p>
+<hr />
+</section>
+<section id="experiments" class="level2">
+<h2>Experiments</h2>
+<hr />
+</section>
+<section id="speakeasy" class="level2">
+<h2><a href="http://lauragelston.ghost.io/">Speakeasy</a></h2>
+<ul>
+<li>Character-level LSTM NN</li>
+<li>Quickly goes &quot;off the rails&quot;</li>
+</ul>
+<hr />
+</section>
+<section id="mitsuku" class="level2">
+<h2><a href="http://www.mitsuku.com/">Mitsuku</a></h2>
+<ul>
+<li>2013 Winner of the Loebnez Prize!</li>
+<li><a href="(http://www.square-bear.co.uk/mitsuku/nfchat.htm)">Chat with it</a> yourself</li>
+<li>Backend is <a href="https://github.com/pandorabots/pandorabots.github.io/blob/master/_modules/mitsuku.md">open sourced</a></li>
+<li>Ontology-based</li>
+</ul>
+<aside markdown-data class="notes">
+Most human-like open chatbot in 2013 &quot;Stands her ground&quot; in an argument Large ontology backend (knowledge base)
+</aside>
+<hr />
+</section>
+<section id="how" class="level2">
+<h2>How?</h2>
+<ul>
+<li>regular expressions?</li>
+<li>statistical models (Markhov Chains)?</li>
+<li>logical grammar?</li>
+</ul>
+<blockquote>
+<ul>
+<li>YES!</li>
+</ul>
+</blockquote>
+<hr />
+</section>
+<section id="python-options" class="level2">
+<h2>Python Options</h2>
+<ul>
+<li>Wil</li>
+<li><strong>Chatterbot</strong></li>
+</ul>
+<hr />
+</section>
+<section id="logic-adapter" class="level2">
+<h2>Logic Adapter</h2>
+<hr />
+</section>
+<section id="db-model-enhancements" class="level2">
+<h2>DB Model Enhancements</h2>
+<hr />
+</section>
+<section id="chat-age" class="level2">
+<h2>Chat Age</h2>
+<ul>
+<li>Flesch-Kincaid Grade level</li>
+<li><a href="https://books.google.com/ngrams">Google NGram DB</a> mean year</li>
+</ul>
+<hr />
+</section>
+<section id="sentiment" class="level2">
+<h2>Sentiment</h2>
+<ul>
+<li><code>NLTK</code>'s VADER by Hutto, C.J. &amp; Gilbert</li>
+<li>3-D &quot;valence&quot;: positivitity, negativity, neutrality</li>
+<li>1-D intensity</li>
+</ul>
+<hr />
+</section>
+<section id="sarcasm" class="level2">
+<h2>Sarcasm</h2>
+<ul>
+<li>trained on #sarcasm in twitter</li>
+<li>need context to improve on 70% accuracy</li>
+</ul>
+<hr />
+</section>
+<section id="kindness" class="level2">
+<h2>Kindness</h2>
+<p>Positivity / Sarcasm - Intensity - Negativity / Sarcasm + Readability + Chat Age</p>
+<ul>
+<li>curse words?</li>
+<li>use of &quot;you&quot; as multiplier?</li>
+</ul>
+<hr />
+</section>
+<section id="new-hope" class="level2">
+<h2>New Hope</h2>
+<ul>
+<li>Grammar: <a href="https://github.com/tensorflow/models/tree/master/syntaxnet">SyntaxNet</a></li>
+<li>Statistics: <a href="https://radimrehurek.com/gensim/models/word2vec.html">Word2Vec &amp; Gensim</a></li>
+<li>Text: <a href="https://en.wikipedia.org/wiki/Project_Gutenberg">Gutenberg</a></li>
+<li>N-Grams: <a href="http://storage.googleapis.com/books/ngrams/books/datasetsv2.html">Google Books</a></li>
+<li>Knowledge: <a href="https://en.wikipedia.org/wiki/YAGO_(database)">YAGO</a></li>
+</ul>
+<div>
+<aside data-markdown class="notes">
+<p><strong>SyntaxNet</strong> Parsey McParseface * POS tagging * syntax/dependency tree</p>
+<p><strong>Word2Vec</strong><br />
+* Pretrained High-Fi Vectors for WSJ language<br />
+* Not good for informal slang<br />
+* Easy to train on tweets and other &quot;one-liner&quot; sources</p>
+<p><strong>Gutenberg</strong> * Pre 1950's only * Full text * No tech terms</p>
+<p><strong>N-Grams</strong> * 1-5-grams * Occurr at least 40 times * 15% of all books * Lots of modern tech jargon! * Great for word &quot;age&quot; tagging</p>
+<p><strong>YAGO</strong> yet another great ontology<br />
+* 95% accurate<br />
+* core to Watson<br />
+* DBPedia, SUMO, WordNet</p>
+</aside>
+</div>
+<hr />
+</section>
+<section id="i-want-hope-to-talk" class="level2">
+<h2>I Want Hope to Talk!</h2>
+<ul>
+<li>Best Speech Recognition (: <a href="https://arxiv.org/pdf/1609.03499.pdf">WaveNet</a></li>
+<li>Best Speech Synthesis (TTS): <a href="https://arxiv.org/pdf/1609.03499.pdf">WaveNet</a></li>
+</ul>
+<div>
+<aside data-markdown class="notes">
+Best speech synthesis package in the world is open source! Best speech recognition packages are closed source But Kaldi and Sphinx are close behind And Speech recognition can be trained easily
+</aside>
+</div>
+<hr />
+<div>
+<aside markdown-data class="notes">
+I'm going to show you how to build a prosocial chatbot, or at the very least least, a bot that isn't antisocial. In the process you're going to get a peak into the technology used by most AI systems that interract in a natural way. But before all that I'd like to explain why I'm so passionate about chatbots. After all, most of them that we interract with are pretty annoying, almost infantile. They can be fun to play with, but aren't usualy all that helpful. And sometimes it's downright dehumanizing to be forced to deal with a machine when you know there's a human out there watching all the text stream by just waiting for you to say the magic word to step in and help you complete you get the information you need or complete your purchase. But for the call center personel who previously were treated like robots themselves, forced to click through a logic tree of questions and responses, all day long, it's probably a bit empowering. They finaly have a pet to keep them entertained while they work to help you solve your problem.
+</aside>
+</div>
+<div>
+<aside markdown-data class="notes">
+And if you need a bigger picture reason, consider the concerns of Gates, Musk, Bostrom, and Chace who title their concerns &quot;Surviving AI&quot; or talk about a &quot;Superintelligence Explosion&quot; that could destroy human civilization. That's what inspires me. In the back of my mind I've convinced myself I've fighting the good fight on behalf of the human race. The big robotic machines called Google, Apple, Microsoft, or even Canonical. These bots have a one-tracked mind. They want to sell you something. The can listen to you, and give you new and interesting information and fun things to do, but they are always just waiting to pounce with just the right product to manipulate you into wanting. That maniuplative employment of &quot;influence techniques&quot; is antisocial, not social. So if we let corporations build our bots, none of them will have a soul. And more and more, we are being left out of the conversation. Bots are talking to each other through web APIs. Even if we monitored the traffic, it wouldn't be much fun reading through all the log files to look for bot conspiracies. We humans have the good manners to use the language of those around us rather than having coded conversations behind our neighbors' back. Or bots should be so polite.
+</aside>
+</div>
+<div>
+<aside markdown-data class="notes">
+There are two approaches to chatbots that are working pretty well right now. We're going to combine both. There's Will with his good manners and rules for action. He can answer your questions and obey your commands, because under the hood he has a graph of logic rules encoded into regular expressions and python conditionals (if-then-else). But if you step just outside of the bounds of what he understands by saying something like &quot;tank u&quot;, his logic might get befuddled and Will will be speechless, unable to respond with his oft-used but enthusiastic response &quot;Your welcome!&quot;.
+</aside>
+</div>
+<div>
+<aside markdown-data class="notes">
+So once you teach your bot manners you can expand its repertoire more quickly with Machine Learning. Like an authoritarian, over-protective parent you can discover the magic of letting a child learn from its own mistakes and successes. And eventually you can no longer tell them to &quot;do what I say, not what I do.&quot; That's the approach of bots like &quot;Salvius&quot; (<code>ChatterBot</code>). Salvius imitates the conversations he sees his parents (the human race) to. So all you need to do is socialize him by giving him a homelessman disguise and he'll learn from the conversations of all the passersby around him. Or, if you want to give him a crash course, just feed him a bunch of &quot;call and response&quot; musical lyrics or Shakespeare dialog and he'll be speaking like a born thesbian in no time. You can culture your bot any way you like.
+</aside>
+</div>
+<div>
+<aside markdown-data class="notes">
+When we first domesticated wolves and ungulates, we chose those that were most domesticatable. When we tried with foxes and bears and other animals, we quickly learned our lesson that some things are teachable and some things aren't. Those that could obey our rules, like sitting back away from the campfire and hearth and waiting us to finish our meal before cleaning up our scraps. But they weren't pups when we first encountered them. When we raise our own children we just use baby talk to get their mouths moving and try to have conversations around them so they know what conversations look like. So we're going to start with Salvius, the imitation bot by Gunther Cox (who started the Salvious project as a High School science experiment!).
+</aside>
+</div>
+<hr />
+</section>
+<section id="algorithm-ideas" class="level2">
+<h2>Algorithm Ideas</h2>
+<ul>
+<li>Analogy/generalization mad libs:</li>
+<li>find words that appear in both statement and response</li>
+<li>replace these paired words with their part of speech or some other &quot;word type&quot; in a separate statement_template, resonse_template DB record</li>
+<li>for matches on these madlibs sentences that happen to be off on this filler word then transfer the missing word from the statement to the response</li>
+<li>hack: surround all such words with -&lt;{}&gt;- to make them match levenshtein distance even when paired words don't match</li>
+<li>4-D GIS index on LDA topic vectors for statements and responses</li>
+</ul>
+<hr />
+</section>
+<section id="plan" class="level2">
+<h2>Plan</h2>
+<p>[*] draft slides [ ] styled revealjs slides</p>
+<p>[-] train ChatterBot on tweets and other dialog DBs in data/ [-] script to convert lines of text (with empty lines to break) into Chatterbot Conversations json [ ] train ChatterBot on Shakespear and copy sqlite DB to separate file [ ] matched text (response_to: ) along side the response in small text. [ ] add sentiment analysis within ChatterBot framework [*] install ChatterBot in <code>hope</code> django project/apps [=] convert to postgres on <code>hope</code> django app [-] implement madlibs hack [ ] add twip predictor to ChatterBot logic [-] add tests and get them passing [-] add datetime extractor to logic</p>
+</section>
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.min.js"></script>
+
+<script>
+  // Full list of configuration options available here:
+  // https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: false,
+  // available themes are in /css/theme
+      theme: Reveal.getQueryHash().theme || 'beige', 
+    // default/cube/page/concave/zoom/linear/fade/none
+      transition: Reveal.getQueryHash().transition || 'linear',
+    // Optional libraries used to extend on reveal.js
+  dependencies: [
+    { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+    { src: 'plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+    { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+    { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+    { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+    // { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+  ]
+  });
+</script>
+
+</body>
+</html>
