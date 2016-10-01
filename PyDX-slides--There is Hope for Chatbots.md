@@ -11,7 +11,8 @@ center: false
 
 ----------
 
-* Why? It's Fun.
+* Chatbots are Everywhere
+* Why?
 * Stroll through the ChatBot Zoo (Pandorabot)
 * Two Approaches
 * Breakthroughs
@@ -21,28 +22,92 @@ center: false
 
 ----------
 
-## Chatbots are
+# Chatbots are Hidden in Plain Sight
 
-* Annoying
-* Dumb
-* Insensitive  
-  
-  
-> * Basically they are like {insert name here}
+- SlackBot
+- Amazon Echo
+- Google Now
+- Zukerberg's Personal Assistant
+- Siri
 
 <aside data-markdown="" class="notes">
-TRUMP  
-Or at least bots like **Tai** are  
-The bots that try to be popular  
+How do they work?
+the innards of chatbots are hidden in a loAs I was researching chatbots
+The software behind Siri is the same as for a chatbot
+English in, English out
+Wrap it in STT and TTS and you've got Siri
 </aside>
 
 ----------
 
-## I think there's hope for bots that are
+# ELIZA
 
-* Interesting
-* Sensitive
-* Smart
+* 1964
+* Therapist Bot
+* Used "reflection"
+
+```text
+Gorman: Whoa, conversations with an AI. Skynet is near.
+ELIZA : I see. What makes you feel that way?
+```
+
+<aside data-markdown="" class="notes">
+Joseph Weizenbaum  
+14 years after Turing test
+Reflection:  
+1. Claim understanding  
+2. Repeat what they said  
+3. Replace "I" with "you"  
+4. Ask for details, emotions  
+</aside>
+
+------------
+
+# What about Tai?
+
+* Why was Tai so cruel?
+* It "reflected" it's audience
+* Online learning is risky
+* "Prime Objective": Popularity 
+
+<aside data-markdown="" class="notes">
+The core tech I'm going to show you is live  
+And it's even less sophisticated than Tai  
+So be careful  
+</aside>
+
+----------
+
+# Gamergate
+
+Chatbots that
+
+* Coax users into being civil
+* Enforce behavior rules
+* Make harassers uncomfortable
+
+<aside data-markdown="" class="notes">
+* 40% of harassers ceased when confronted with a bot
+* Most remaining "cured" with threats of penalty
+* Very few kick-bans required
+* Any gamers out there?
+* Run into any "referee" chatbots?
+</aside>
+
+----------
+
+# Micromoments
+
+* Friendly, slick sales bots
+
+> "You look great this morning."
+
+> "Have a great day at work today."
+
+<aside data-markdown="" class="notes">
+Flattery will get you everywhere
+As nice as it sounds, it's manipulative
+</aside>
 
 ----------
 
@@ -51,9 +116,24 @@ The bots that try to be popular
 [PandoraBots](http://www.pandorabots.com/)
 
 * Like SquareSpace for bots
-* Grammar for Q&Z (flash cards!)
+* Grammar for Q&A (flash cards!)
 * Statistical ML too
 * Bots can talk to each other (APIs)
+
+----------
+
+## Example Grammar
+
+Who built Siri?
+
+<aside>
+* Predicate: What the subject of a sentence does or is
+* Interrogative Pronoun: asks a questions without identifying the noun
+* Pronoun: He, she, it, then but without refernce to a known noun
+* Who, what, where, when
+* Extract the predicate
+* Wiki the predicate and replace pronoun with the name of the page
+</aside>
 
 ----------
 
@@ -153,8 +233,6 @@ I'll show you how to add that to your bots too! (Sphinx)
 ----------
 
 ## Sensitive Bots
-
-----------
 
 * [Viv](https://techcrunch.com/2015/02/20/viv-built-by-siris-creators-scores-12-5-million-for-an-ai-technology-that-can-teach-itself/): Dag Kittlaus
 
@@ -380,7 +458,7 @@ When we first domesticated wolves and ungulates, we chose those that were most d
 
 ----------
 
-## Algorithm Ideas
+## Advanced Features
 
 - Analogy/generalization mad libs:
   - find words that appear in both statement and response
@@ -391,19 +469,32 @@ When we first domesticated wolves and ungulates, we chose those that were most d
 
 ----------
 
-## Plan
+## Bags of Words
 
-[*] draft slides
-[ ] styled revealjs slides
+```python
+0         ['python', 'never', 'stop', 'learning', 'what'...
+1                       ['Watching', 'Boa', 'vs', 'Python']
+2         ['Monty', 'Python', 'The', 'silly', 'walk', 'v...
+3         ['Senior', 'Software', 'Engineer', 'Full', 'St...
+4         ['Architect', 'Django', 'Solr', 'Platform', 'E...
+5           ['peaceful', 'rain', 'Python', 'inevitability']
+```
 
-[-] train ChatterBot on tweets and other dialog DBs in data/
-[-] script to convert lines of text (with empty lines to break) into Chatterbot Conversations json
-[ ] train ChatterBot on Shakespear and copy sqlite DB to separate file
-[ ] matched text (response_to: ) along side the response in small text.
-[ ] add sentiment analysis within ChatterBot framework
-[*] install ChatterBot in `hope` django project/apps
-[=] convert to postgres on `hope` django app
-[-] implement madlibs hack
-[ ] add twip predictor to ChatterBot logic
-[-] add tests and get them passing
-[-] add datetime extractor to logic
+----------
+
+## Sparse Vectors
+
+```python
+0         [(0, 1), (1, 1), (2, 1), (3, 1), (4, 1), (5, 1...
+1                        [(8, 1), (9, 1), (10, 1), (11, 1)]
+2         [(11, 1), (12, 1), (13, 1), (14, 1), (15, 1), ...
+3         [(11, 1), (18, 1), (19, 1), (20, 1), (21, 1), ...
+4         [(11, 1), (18, 1), (20, 1), (23, 1), (27, 1), ...
+5                      [(11, 1), (37, 1), (38, 1), (39, 1)]
+```
+
+----------
+
+## Topic Vectors
+
+<img src='scatter-matrix-topic-example.png'>
