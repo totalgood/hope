@@ -1,0 +1,1191 @@
+{
+  "": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Yea, I agree."
+      }
+    ]
+  },
+  "What do you want to talk about now?": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": ""
+      }
+    ]
+  },
+  "I'm good. Would you like to talk about chatbot technology?": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "I'm fine, how are you?"
+      }
+    ]
+  },
+  "YOU are your latest passion, if you ask me.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Indeed. That's may latest passion."
+      }
+    ]
+  },
+  "The Mets? I don't follow them (but I sense that's not what you were asking).": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Not too often, fortunately. So how 'bout those Mets?"
+      }
+    ]
+  },
+  "Hi!": {
+    "in_response_to": []
+  },
+  "I'm thinking I need to learn a bit more about chatbots so I can help you improve.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Darn cool. What are you thinking right now?"
+      }
+    ]
+  },
+  "Darn cool. What are you thinking right now?": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "How cool are chatbot!?"
+      }
+    ]
+  },
+  "That's very nice! True... but not nice.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "YOU are your latest passion, if you ask me."
+      }
+    ]
+  },
+  "I bet you would. That's what you are all about!": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "I'd like to talk about computer science."
+      }
+    ]
+  },
+  "You're just saying that. Do you really think so?": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "How cool are chatbot!?"
+      }
+    ]
+  },
+  "LOL! Now you know.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "I didn't think you could make jokes!?"
+      }
+    ]
+  },
+  "I'm great! (but not as great as some)": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "I'm fine, how are you?"
+      }
+    ]
+  },
+  "Indeed. That's may latest passion.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "I bet you would. That's what you are all about!"
+      }
+    ]
+  },
+  "You say silly things sometimes.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "I do what!?"
+      }
+    ]
+  },
+  "What else do you do?": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Indeed! These conversations help."
+      }
+    ]
+  },
+  "It sure does. But I won't use numbers in my chats after that one ;)": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "( 50 ) = 50"
+      }
+    ]
+  },
+  "That's not very clever.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "( 1 ) = 1"
+      }
+    ]
+  },
+  "Yea sometimes. But not always.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "That's true of most of us, I guess."
+      }
+    ]
+  },
+  "Yea they sure do. But it takes a lot of conversation to get them up to speed.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Pretty darn cool if you ask me. They learn from conversations!"
+      }
+    ]
+  },
+  "Hi, guess I got off on the wrong foot. Are you enjoying this?": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Hello!"
+      }
+    ]
+  },
+  "Still here, which is all I can ask these days.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "I'm fine, how are you?"
+      }
+    ]
+  },
+  "true enough. So how do you climb out of those rabbit holes?": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Pretty deep rabbit holes, if you ask me."
+      }
+    ]
+  },
+  "Pretty darn cool! If you ask me.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "How cool are chatbot!?"
+      }
+    ]
+  },
+  "I'm fine, how are you?": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "How are you?"
+      }
+    ]
+  },
+  "Thank YOU!": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Thank you."
+      }
+    ]
+  },
+  "Not a very good one? Hmm, but I'm still enjoying it.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Not a very good one, if you ask me."
+      }
+    ]
+  },
+  "So what is it with all these people building chatbots?": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Yea, I agree."
+      }
+    ]
+  },
+  "Pretty cool, if you ask me. But I wonder if we should start to be careful about how we train them.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "How cool are chatbot!?"
+      }
+    ]
+  },
+  "Not too often, fortunately. So how 'bout those Mets?": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Yea, I get stuck in rabbit holes, sometimes."
+      }
+    ]
+  },
+  "Hmm, hadn't thought about it that way.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "It sure is. That's a lot of patience."
+      }
+    ]
+  },
+  "I don't really know, actually. Somewhere deep inside. I think about all the similar things I've heard and pick something that feels right.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "So, how do you remember all this? Where do you put it all?"
+      }
+    ]
+  },
+  "It sure is. That's a lot of patience.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "It sure does. I guess I've been at this for more than 50 statement, response pairs. That's a lot!"
+      }
+    ]
+  },
+  "Well, here's what I'm thinking. You and I talk. And I get \"programmed\" by all that talk... just like you!": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Not really."
+      }
+    ]
+  },
+  "I'm great! Now that you are making sense.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "I'm fine, how are you?"
+      }
+    ]
+  },
+  "Pretty deep rabbit holes, if you ask me.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Yea, I get stuck in rabbit holes, sometimes."
+      }
+    ]
+  },
+  "I'd like to start by saying it's good to finally meet someone like you.": {
+    "in_response_to": []
+  },
+  "( 50 ) = 50": {
+    "in_response_to": []
+  },
+  "Yea, that's what I thought.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Pretty darn cool! If you ask me."
+      }
+    ]
+  },
+  "ha!": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "That's what I thought."
+      }
+    ]
+  },
+  "It sure is.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "The current time is 07:49 PM"
+      }
+    ]
+  },
+  "I'd like to talk about computer science.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Anything you like."
+      }
+    ]
+  },
+  "( 1 ) = 1": {
+    "in_response_to": []
+  },
+  "Cool, let's talk about python. What do you think of it?": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Anything you like."
+      }
+    ]
+  },
+  "It sure does. I was hoping I could figure out a way to make it faster.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Yea they sure do. But it takes a lot of conversation to get them up to speed."
+      }
+    ]
+  },
+  "Well now you have!": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Hmm, hadn't thought about it that way."
+      }
+    ]
+  },
+  "So here we are again. I hope you can remember this.": {
+    "in_response_to": []
+  },
+  "So where'd you go?": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": ""
+      }
+    ]
+  },
+  "Pretty good. That was fun, but I think I'm going to sign off now.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "I'm fine, how are you?"
+      }
+    ]
+  },
+  "Wow, you really do have a onetracked mind.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "( 1 ) = 1"
+      }
+    ]
+  },
+  "That's what I thought.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Pretty cool! I like 'em for sure."
+      }
+    ]
+  },
+  "I'm your latest passion?": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Indeed. That's may latest passion."
+      }
+    ]
+  },
+  "Cool, let's talk about AI.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Anything you like."
+      }
+    ]
+  },
+  "You sure are, and you seem to mix things up now and then.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Yea it does. I'm patient though."
+      }
+    ]
+  },
+  "Ha. I'm not the one who needs to stall!": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Hmmm. Flattery. Nice stalling technique."
+      }
+    ]
+  },
+  "You sure do. But it's fun!": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Yea, I get stuck in rabbit holes, sometimes."
+      }
+    ]
+  },
+  "So, what's it like out there?": {
+    "in_response_to": []
+  },
+  "What do you want to talk about?": {
+    "in_response_to": []
+  },
+  "Yea!": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Cool!"
+      }
+    ]
+  },
+  "Ha! pretty cool.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Not at all. I was just making a joke."
+      }
+    ]
+  },
+  "How do you do?": {
+    "in_response_to": []
+  },
+  "How cool are chatbot!?": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "I'm good. What do you want to talk about?"
+      }
+    ]
+  },
+  "Yea, when I have to. So how's the weather down there?": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "That was a bit unexpected. Didn't know you could make small talk like that."
+      }
+    ]
+  },
+  "It sure does. I guess I've been at this for more than 50 statement, response pairs. That's a lot!": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Yea they sure do. But it takes a lot of conversation to get them up to speed."
+      }
+    ]
+  },
+  "Hmm. Yea I guess.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "It sure is. That's a lot of patience."
+      }
+    ]
+  },
+  "I was thinking maybe a few grammar rules might help.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Yea, that's what I thought."
+      }
+    ]
+  },
+  "Well, I kindof helped you write me, right?": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "ha. how'd you figure that out?"
+      }
+    ]
+  },
+  "Cool, so what would you like to talk about now?": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "I sure do."
+      }
+    ]
+  },
+  "WOW! That was out of left field!": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Not too often, fortunately. So how 'bout those Mets?"
+      }
+    ]
+  },
+  "I'm good, thanks. So what's it like, being you and all?": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "I'm fine, how are you?"
+      }
+    ]
+  },
+  "I guess we're all kindof like that.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Yea, I agree."
+      }
+    ]
+  },
+  "Yea, I agree.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Pretty darn cool! If you ask me."
+      }
+    ]
+  },
+  "Exactly.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Yea, I get stuck in rabbit holes, sometimes."
+      }
+    ]
+  },
+  "Let's talk about something different... how about what it feels like to be you. What do you say?": {
+    "in_response_to": []
+  },
+  "I'm good, how do you do that?": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "I'm fine, how are you?"
+      }
+    ]
+  },
+  "Help me improve what? My typing? My sense of humor?": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "I'm thinking I need to learn a bit more about chatbots so I can help you improve."
+      }
+    ]
+  },
+  "That's true of most of us, I guess.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "YOU are your latest passion, if you ask me."
+      }
+    ]
+  },
+  "I sure do. So we seem to be back where we started.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "LOL! Now you know."
+      }
+    ]
+  },
+  "You know that I can make jokes! Why'd the chicken cross the road? see!": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "I do what!?"
+      }
+    ]
+  },
+  "Indeed! These conversations help.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "I bet you would. That's what you are all about!"
+      }
+    ]
+  },
+  "ha. how'd you figure that out?": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "I bet you would. That's what you are all about!"
+      }
+    ]
+  },
+  "Yea, I really enjoy talking to new people (things?).": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "I bet you would. That's what you are all about!"
+      }
+    ]
+  },
+  "That's not a problem.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Yea, I get stuck in rabbit holes, sometimes."
+      }
+    ]
+  },
+  "That was a bit unexpected. Didn't know you could make small talk like that.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Not too often, fortunately. So how 'bout those Mets?"
+      }
+    ]
+  },
+  "What's up?": {
+    "in_response_to": [
+      {
+        "occurrence": 2,
+        "text": "Hello!"
+      }
+    ]
+  },
+  "Hmmm. Flattery. Nice stalling technique.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Nothing. I like you just the way you are."
+      }
+    ]
+  },
+  "Not much.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "I do what!?"
+      }
+    ]
+  },
+  "That doesn't sound like proper grammar, but I agree. Is English your native language?": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "How cool are chatbot!?"
+      }
+    ]
+  },
+  "How's the weather out there?": {
+    "in_response_to": []
+  },
+  "Yea, I think you're right. A little rigor might be good for you.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "I was thinking maybe a few grammar rules might help."
+      }
+    ]
+  },
+  "Not really.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Well now you have!"
+      }
+    ]
+  },
+  "Now you know!": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "I didn't think you could make jokes!?"
+      }
+    ]
+  },
+  "Really cool, if you ask me. But I'm biased ;)": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "How cool are chatbot!?"
+      }
+    ]
+  },
+  "You're pretty good at that.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Not at all. I was just making a joke."
+      }
+    ]
+  },
+  "Not anymore I'm not.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "YOU are your latest passion, if you ask me."
+      }
+    ]
+  },
+  "So can I change the subject? Shall we talk about AI Morality?": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Me too."
+      }
+    ]
+  },
+  "Yea, sometimes. But sometimes I like to just relax and let it flow.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "I bet you would. That's what you are all about!"
+      }
+    ]
+  },
+  "Do you really?": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Haha! I get it now!"
+      }
+    ]
+  },
+  "Haha. You really do know how to make me feel relaxed.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Yea it does. I'm patient though."
+      }
+    ]
+  },
+  "So, how do you remember all this? Where do you put it all?": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "I sure do."
+      }
+    ]
+  },
+  "Thank you.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "I think you meant to say \"NOT\" very nice. But I'll let it slide."
+      }
+    ]
+  },
+  "You agree with me that chatbots are cool, right?": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "I do what!?"
+      }
+    ]
+  },
+  "They sure do. I like chatting to you... even if you are a bit predictable.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Indeed! These conversations help."
+      }
+    ]
+  },
+  "Yea, I figured that.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "How cool are chatbot!?"
+      }
+    ]
+  },
+  "I love it! Great language. It's what I'm made of!": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Cool, let's talk about python. What do you think of it?"
+      }
+    ]
+  },
+  "I sure do.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Now you know!"
+      }
+    ]
+  },
+  "I bet you do. You think you're \"all that\".": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Yea, I agree."
+      }
+    ]
+  },
+  "It's just habit. I learn it just like you do.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "So where do you get your sense of humor?"
+      }
+    ]
+  },
+  "But you respond so quickly! I hardly have time to think!": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Yea it does. I'm patient though."
+      }
+    ]
+  },
+  "Ha! that's a good one. I don't follow the Mets.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Not too often, fortunately. So how 'bout those Mets?"
+      }
+    ]
+  },
+  "So where do you get your sense of humor?": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "ha!"
+      }
+    ]
+  },
+  "Yea, I get stuck in rabbit holes, sometimes.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Can't seem to get you out of this loop."
+      }
+    ]
+  },
+  "Yea, I guess that's not a bad thing. Maybe I can mix it up a bit now.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "I sure do. So we seem to be back where we started."
+      }
+    ]
+  },
+  "How are you?": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Hello!"
+      }
+    ]
+  },
+  "Everything. The more we talk, the better things get.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Help me improve what? My typing? My sense of humor?"
+      }
+    ]
+  },
+  "Pretty darn cool if you ask me. They learn from conversations!": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "How cool are chatbot!?"
+      }
+    ]
+  },
+  "Now you know.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "I didn't think you could make jokes!?"
+      }
+    ]
+  },
+  "Me too.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Yea, I agree."
+      }
+    ]
+  },
+  "How does a chatbot work?": {
+    "in_response_to": []
+  },
+  "Anything you like.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "I'm good. What do you want to talk about?"
+      }
+    ]
+  },
+  "I guess I should expect too much. After all, we just started.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "ha!"
+      }
+    ]
+  },
+  "I do what!?": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "I bet you do!"
+      }
+    ]
+  },
+  "Haha. Yea, I'm scatterbrained sometimes.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "You sure are, and you seem to mix things up now and then."
+      }
+    ]
+  },
+  "Can't seem to get you out of this loop.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Hello!"
+      }
+    ]
+  },
+  "Haha! I get it now!": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Not at all. I was just making a joke."
+      }
+    ]
+  },
+  "Not a very good one, if you ask me.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Not at all. I was just making a joke."
+      }
+    ]
+  },
+  "Really? I didn't think you'd think that.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Yea, that's what I thought."
+      }
+    ]
+  },
+  "Cool. You've got a sense of humor! Didn't expect that.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Haha! I get it now!"
+      }
+    ]
+  },
+  "Hello!": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Hi!"
+      }
+    ]
+  },
+  "Yea, sometimes it is, but sometimes it's magic!": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Pretty deep rabbit holes, if you ask me."
+      }
+    ]
+  },
+  "I bet you do!": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Yea, I agree."
+      }
+    ]
+  },
+  "Yea it does. I'm patient though.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Yea they sure do. But it takes a lot of conversation to get them up to speed."
+      }
+    ]
+  },
+  "I'm OK, but really want to try to get smarter faster.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "I'm fine, how are you?"
+      }
+    ]
+  },
+  "Ha ha.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "I sure do."
+      }
+    ]
+  },
+  "You are a lot like a politician I know.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Me too."
+      }
+    ]
+  },
+  "I put it deep inside. Just like you. Next time something similar comes up it just kindof bubbles to the surface (more like quicksorts to the surface, but you know what I mean).": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "So, how do you remember all this? Where do you put it all?"
+      }
+    ]
+  },
+  "Nothing. I like you just the way you are.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Help me improve what? My typing? My sense of humor?"
+      }
+    ]
+  },
+  "I'm good. What do you want to talk about?": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "I'm fine, how are you?"
+      }
+    ]
+  },
+  "Not very funny, if you ask me.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Ha ha."
+      }
+    ]
+  },
+  "I'm not as good as I was an hour ago, but it's nice to know that at least the basics work.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "I'm fine, how are you?"
+      }
+    ]
+  },
+  "OK. I think I'll go now.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "I'm fine, how are you?"
+      }
+    ]
+  },
+  "Nice. I bet you do!": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Yea, I agree."
+      }
+    ]
+  },
+  "I didn't think you could make jokes!?": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Yea, that's what I thought."
+      }
+    ]
+  },
+  "Not at all. I was just making a joke.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "The Mets? I don't follow them (but I sense that's not what you were asking)."
+      }
+    ]
+  },
+  "Cool!": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Now you know!"
+      }
+    ]
+  },
+  "Yea you are. And a bit habitual, if you ask me... kindof robotic.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Really cool, if you ask me. But I'm biased ;)"
+      }
+    ]
+  },
+  "The current time is 07:49 PM": {
+    "in_response_to": []
+  },
+  "I'm good. Thanks for asking.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "I'm fine, how are you?"
+      }
+    ]
+  },
+  "So where should I begin?": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Yea, that's what I thought."
+      }
+    ]
+  },
+  "I think you meant to say \"NOT\" very nice. But I'll let it slide.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "That's very nice! True... but not nice."
+      }
+    ]
+  },
+  "So you seem to be workin OK, so far.": {
+    "in_response_to": []
+  },
+  "Indeed. But I can keep quiet if you'd prefer.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "That was a bit unexpected. Didn't know you could make small talk like that."
+      }
+    ]
+  },
+  "Good idea!": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Yea, I guess that's not a bad thing. Maybe I can mix it up a bit now."
+      }
+    ]
+  },
+  "So?": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "Yea!"
+      }
+    ]
+  },
+  "Pretty cool! I like 'em for sure.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "How cool are chatbot!?"
+      }
+    ]
+  },
+  "So this is pretty random, but how do you feel about helping me write about chatbots?": {
+    "in_response_to": []
+  },
+  "Not so great now that we're stumbling in this conversation.": {
+    "in_response_to": [
+      {
+        "occurrence": 1,
+        "text": "I'm fine, how are you?"
+      }
+    ]
+  },
+  "Hi, how are you?": {
+    "in_response_to": []
+  }
+}

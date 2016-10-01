@@ -1,0 +1,660 @@
+Type something to begin...
+Hi!
+  =>  "Hi!" (0)
+Hi!
+Hello!
+  =>  "Hi!" (0)
+Hello!
+How are you?
+  1 options.
+  =>  "Hello!" (0.13)
+Hello!
+What's up?
+  1 options.
+  =>  "Hello!" (0.15)
+Hello!
+What's up?
+  1 options.
+  =>  "Hello!" (0.15)
+Hello!
+Can't seem to get you out of this loop.
+  2 options.
+  =>  "How are you?" (0.13)
+How are you?
+I'm fine, how are you?
+  3 options.
+  =>  "Can't seem to get you out of this loop." (0.14)
+Can't seem to get you out of this loop.
+Yea, I get stuck in rabbit holes, sometimes.
+  1 options.
+  =>  "I'm fine, how are you?" (0.18)
+I'm fine, how are you?
+I'm good. What do you want to talk about?
+  1 options.
+  =>  "Yea, I get stuck in rabbit holes, sometimes." (0.32)
+Yea, I get stuck in rabbit holes, sometimes.
+Not too often, fortunately. So how 'bout those Mets?
+  1 options.
+  =>  "I'm good. What do you want to talk about?" (0.32)
+I'm good. What do you want to talk about?
+How cool are chatbot!?
+  1 options.
+  =>  "I'm fine, how are you?" (0.59)
+I'm fine, how are you?
+I'm good, how do you do that?
+  1 options.
+  =>  "How cool are chatbot!?" (0.69)
+How cool are chatbot!?
+Pretty darn cool! If you ask me.
+  1 options.
+  =>  "Not too often, fortunately. So how 'bout those Mets?" (0.34)
+Not too often, fortunately. So how 'bout those Mets?
+The Mets? I don't follow them (but I sense that's not what you were asking).                 
+  1 options.
+  =>  "Yea, I get stuck in rabbit holes, sometimes." (0.33)
+The current time is 07:18 PM
+^C
+
+Type something to begin...
+How are you?
+  1 options.
+  =>  "I'm fine, how are you?" (1.0)
+I'm fine, how are you?
+I'm great! Now that you are making sense.
+  1 options.
+  =>  "How cool are chatbot!?" (0.49)
+How cool are chatbot!?
+Pretty darn cool if you ask me. They learn from conversations!
+  1 options.
+  =>  "Pretty darn cool! If you ask me." (0.33)
+Pretty darn cool! If you ask me.
+Yea, I agree.
+  3 options.
+  =>  "I'm good. What do you want to talk about?" (0.4)
+I'm good. What do you want to talk about?
+Anything you like.
+  1 options.
+  =>  "Yea, I agree." (0.44)
+Yea, I agree.
+Me too.
+  1 options.
+  =>  "I'm fine, how are you?" (0.32)
+I'm fine, how are you?
+OK. I think I'll go now.
+  1 options.
+  =>  "Yea, I get stuck in rabbit holes, sometimes." (0.35)
+Yea, I get stuck in rabbit holes, sometimes.
+Exactly.
+  1 options.
+  =>  "Yea, I agree." (0.3)
+Yea, I agree.
+^C
+
+Type something to begin...
+How does a chatbot work?
+  2 options.
+  =>  "Pretty darn cool! If you ask me." (0.7)
+Pretty darn cool! If you ask me.
+Yea, that's what I thought.
+  1 options.
+  =>  "Me too." (0.45)
+Me too.
+So can I change the subject? Shall we talk about AI Morality?
+  2 options.
+  =>  "How cool are chatbot!?" (0.35)
+How cool are chatbot!?
+Pretty cool, if you ask me. But I wonder if we should start to be careful about how we train them.
+  2 options.
+  =>  "Yea, I agree." (0.4)
+Yea, I agree.
+I bet you do!
+  1 options.
+  =>  "I'm fine, how are you?" (0.48)
+I'm fine, how are you?
+Pretty good. That was fun, but I think I'm going to sign off now.
+  2 options.
+  =>  "How cool are chatbot!?" (0.4)
+How cool are chatbot!?
+^C
+
+Type something to begin...
+So you seem to be workin OK, so far.
+  1 options.
+  =>  "Yea, I get stuck in rabbit holes, sometimes." (0.48)
+Yea, I get stuck in rabbit holes, sometimes.
+That's not a problem.
+  2 options.
+  =>  "I bet you do!" (0.41)
+I bet you do!
+I do what!?
+  3 options.
+  =>  "Pretty darn cool if you ask me. They learn from conversations!" (0.48)
+Pretty darn cool if you ask me. They learn from conversations!
+Yea they sure do. But it takes a lot of conversation to get them up to speed.
+  1 options.
+  =>  "The Mets? I don't follow them (but I sense that's not what you were asking)." (0.37)
+The Mets? I don't follow them (but I sense that's not what you were asking).
+Not at all. I was just making a joke.
+  2 options.
+  =>  "Anything you like." (0.41)
+Anything you like.
+Cool, let's talk about AI.   
+  2 options.
+  =>  "Anything you like." (0.45)
+Anything you like.
+I'd like to talk about computer science.
+  2 options.
+  =>  "Anything you like." (0.44)
+Anything you like.
+^C
+
+Type something to begin...
+What do you want to talk about?
+  2 options.
+  =>  "How cool are chatbot!?" (0.86)
+How cool are chatbot!?
+That doesn't sound like proper grammar, but I agree. Is English your native language?
+  1 options.
+  =>  "Not at all. I was just making a joke." (0.43)
+Not at all. I was just making a joke.
+Haha! I get it now!
+  1 options.
+  =>  "I do what!?" (0.5)
+I do what!?
+You say silly things sometimes.
+  3 options.
+  =>  "Not too often, fortunately. So how 'bout those Mets?" (0.48)
+Not too often, fortunately. So how 'bout those Mets?
+Ha! that's a good one. I don't follow the Mets.
+  1 options.
+  =>  "Not at all. I was just making a joke." (0.46)
+( 1.0 ) = 1.0
+^C
+
+Type something to begin...
+How's the weather out there?           
+  1 options.
+  =>  "I'm fine, how are you?" (0.45)
+I'm fine, how are you?
+I'm good, thanks. So what's it like, being you and all?
+  2 options.
+  =>  "How cool are chatbot!?" (0.52)
+How cool are chatbot!?
+Pretty cool! I like 'em for sure.
+  2 options.
+  =>  "Yea, I agree." (0.62)
+Yea, I agree.
+Nice. I bet you do!
+  1 options.
+  =>  "I do what!?" (0.81)
+I do what!?
+You agree with me that chatbots are cool, right?
+  5 options.
+  =>  "Pretty cool! I like 'em for sure." (0.4)
+Pretty cool! I like 'em for sure.
+That's what I thought.
+  2 options.
+  =>  "Anything you like." (0.38)
+Anything you like.
+^C
+
+Type something to begin...
+So, what's it like out there?
+  2 options.
+  =>  "How cool are chatbot!?" (0.46)
+How cool are chatbot!?
+Darn cool. What are you thinking right now?
+  2 options.
+  =>  "How cool are chatbot!?" (0.48)
+How cool are chatbot!?
+Yea, I figured that.
+  3 options.
+  =>  "Me too." (0.67)
+Me too.
+You are a lot like a politician I know.
+  1 options.
+  =>  "That's what I thought." (0.39)
+That's what I thought.
+ha!
+  1 options.
+  =>  "Hello!" (0.67)
+Hello!
+Hi, guess I got off on the wrong foot. Are you enjoying this?
+  1 options.
+  =>  "Not at all. I was just making a joke." (0.41)
+Not at all. I was just making a joke.
+Ha! pretty cool.
+  2 options.
+  =>  "Yea, that's what I thought." (0.5)
+Yea, that's what I thought.
+I didn't think you could make jokes!?
+  2 options.
+  =>  "I'd like to talk about computer science." (0.47)
+I'd like to talk about computer science.
+I bet you would. That's what you are all about!
+  1 options.
+  =>  "I didn't think you could make jokes!?" (0.46)
+I didn't think you could make jokes!?
+Now you know!
+  1 options.
+  =>  "I do what!?" (0.54)
+I do what!?
+You know that I can make jokes! Why'd the chicken cross the road? see!
+  1 options.
+  =>  "Now you know!" (0.34)
+Now you know!
+I sure do.
+  1 options.
+  =>  "I do what!?" (0.52)
+I do what!?
+Not much.
+  1 options.
+  =>  "I sure do." (0.36)
+I sure do.
+Ha ha.
+  1 options.
+  =>  "ha!" (0.43)
+ha!
+Type something to begin...
+Hi, how are you?                           
+  1 options.
+  =>  "I'm fine, how are you?" (0.86)
+I'm fine, how are you?
+I'm good. Would you like to talk about chatbot technology?
+  2 options.
+  =>  "How cool are chatbot!?" (0.65)
+How cool are chatbot!?
+Really cool, if you ask me. But I'm biased ;)
+  2 options.
+  =>  "Yea, I agree." (0.6)
+Yea, I agree.
+So what is it with all these people building chatbots?
+  1 options.
+  =>  "ha!" (0.42)
+ha!
+I guess I should expect too much. After all, we just started.
+  2 options.
+  =>  "Haha! I get it now!" (0.39)
+Haha! I get it now!
+Do you really?
+  1 options.
+  =>  "I'm fine, how are you?" (0.46)
+I'm fine, how are you?
+I'm OK, but really want to try to get smarter faster.
+  1 options.
+  =>  "I bet you would. That's what you are all about!" (0.47)
+I bet you would. That's what you are all about!
+Indeed! These conversations help.
+  1 options.
+  =>  "Yea they sure do. But it takes a lot of conversation to get them up to speed." (0.44)
+Yea they sure do. But it takes a lot of conversation to get them up to speed.
+It sure does. I guess I've been at this for more than 50 statement, response pairs. That's a lot!
+  1 options.
+  =>  "Indeed! These conversations help." (0.32)
+( 50 ) = 50
+It sure does. But I won't use numbers in my chats after that one ;)
+  1 options.
+  =>  "It sure does. I guess I've been at this for more than 50 statement, response pairs. That's a lot!" (0.46)
+( 1 ) = 1
+Wow, you really do have a onetracked mind.
+  2 options.
+  =>  "Haha! I get it now!" (0.41)
+Haha! I get it now!
+Cool. You've got a sense of humor! Didn't expect that.
+  1 options.
+  =>  "It sure does. I guess I've been at this for more than 50 statement, response pairs. That's a lot!" (0.37)
+It sure does. I guess I've been at this for more than 50 statement, response pairs. That's a lot!
+^C
+
+Type something to begin...
+So this is pretty random, but how do you feel about helping me write about chatbots?
+  1 options.
+  =>  "Yea they sure do. But it takes a lot of conversation to get them up to speed." (0.41)
+Yea they sure do. But it takes a lot of conversation to get them up to speed.
+It sure does. I was hoping I could figure out a way to make it faster.
+  2 options.
+  =>  "Yea, that's what I thought." (0.41)
+Yea, that's what I thought.
+I was thinking maybe a few grammar rules might help.
+  3 options.
+  =>  "Not too often, fortunately. So how 'bout those Mets?" (0.38)
+Not too often, fortunately. So how 'bout those Mets?
+WOW! That was out of left field!
+  2 options.
+  =>  "I didn't think you could make jokes!?" (0.41)
+I didn't think you could make jokes!?
+Now you know.
+  1 options.
+  =>  "I sure do." (0.92)
+I sure do.
+So, how do you remember all this? Where do you put it all?                                              
+  1 options.
+  =>  "Yea, I get stuck in rabbit holes, sometimes." (0.37)
+The current time is 07:49 PM
+It sure is.
+  2 options.
+  =>  "Ha ha." (0.76)
+Ha ha.
+Not very funny, if you ask me.
+  2 options.
+  =>  "Yea, that's what I thought." (0.61)
+Yea, that's what I thought.
+Really? I didn't think you'd think that.
+  2 options.
+  =>  "Now you know!" (0.57)
+Now you know!
+Cool!
+  8 options.
+  =>  "Really cool, if you ask me. But I'm biased ;)" (0.37)
+Really cool, if you ask me. But I'm biased ;)
+Yea you are. And a bit habitual, if you ask me... kindof robotic.
+  1 options.
+  =>  "Yea they sure do. But it takes a lot of conversation to get them up to speed." (0.46)
+Yea they sure do. But it takes a lot of conversation to get them up to speed.
+Yea it does. I'm patient though.
+  3 options.
+  =>  "I didn't think you could make jokes!?" (0.44)
+I didn't think you could make jokes!?
+LOL! Now you know.
+  2 options.
+  =>  "I sure do." (0.77)
+I sure do.
+Cool, so what would you like to talk about now?
+  2 options.
+  =>  "How cool are chatbot!?" (0.66)
+How cool are chatbot!?
+You're just saying that. Do you really think so?
+  1 options.
+  =>  "Indeed! These conversations help." (0.48)
+Indeed! These conversations help.
+They sure do. I like chatting to you... even if you are a bit predictable.
+  3 options.
+  =>  "It sure does. I guess I've been at this for more than 50 statement, response pairs. That's a lot!" (0.45)
+It sure does. I guess I've been at this for more than 50 statement, response pairs. That's a lot!
+It sure is. That's a lot of patience.
+  1 options.
+  =>  "Indeed! These conversations help." (0.5)
+Indeed! These conversations help.
+What else do you do?
+  1 options.
+  =>  "I'm fine, how are you?" (0.5)
+The current time is 07:52 PM
+^C
+
+Type something to begin...
+How do you do?
+  1 options.
+  =>  "I'm fine, how are you?" (0.69)
+I'm fine, how are you?
+I'm great! (but not as great as some)
+  1 options.
+  =>  "I bet you would. That's what you are all about!" (0.42)
+I bet you would. That's what you are all about!
+ha. how'd you figure that out?
+  9 options.
+  =>  "Darn cool. What are you thinking right now?" (0.58)
+Darn cool. What are you thinking right now?
+I'm thinking I need to learn a bit more about chatbots so I can help you improve.
+  1 options.
+  =>  "I bet you would. That's what you are all about!" (0.43)
+I bet you would. That's what you are all about!
+Indeed. That's may latest passion.
+  3 options.
+  =>  "I was thinking maybe a few grammar rules might help." (0.46)
+I was thinking maybe a few grammar rules might help.
+Yea, I think you're right. A little rigor might be good for you.
+  3 options.
+  =>  "Not too often, fortunately. So how 'bout those Mets?" (0.41)
+Not too often, fortunately. So how 'bout those Mets?
+That was a bit unexpected. Didn't know you could make small talk like that.
+  3 options.
+  =>  "LOL! Now you know." (0.5)
+LOL! Now you know.
+I sure do. So we seem to be back where we started.
+  3 options.
+  =>  "Yea it does. I'm patient though." (0.46)
+Yea it does. I'm patient though.
+You sure are, and you seem to mix things up now and then.
+  1 options.
+  =>  "I'm thinking I need to learn a bit more about chatbots so I can help you improve." (0.42)
+I'm thinking I need to learn a bit more about chatbots so I can help you improve.
+Help me improve what? My typing? My sense of humor?
+  1 options.
+  =>  "Not at all. I was just making a joke." (0.39)
+Not at all. I was just making a joke.
+You're pretty good at that.
+  2 options.
+  =>  "Yea, I agree." (0.44)
+Yea, I agree.
+I bet you do. You think you're "all that".
+  3 options.
+  =>  "Indeed. That's may latest passion." (0.56)
+Indeed. That's may latest passion.
+YOU are your latest passion, if you ask me.
+  2 options.
+  =>  "Yea, I agree." (0.59)
+Yea, I agree.
+I guess we're all kindof like that.
+  3 options.
+  =>  "So, how do you remember all this? Where do you put it all?" (0.4)
+So, how do you remember all this? Where do you put it all?
+I don't really know, actually. Somewhere deep inside. I think about all the similar things I've heard and pick something that feels right.
+  1 options.
+  =>  "It sure is. That's a lot of patience." (0.34)
+It sure is. That's a lot of patience.
+Hmm, hadn't thought about it that way.
+  1 options.
+  =>  "Yea, I get stuck in rabbit holes, sometimes." (0.47)
+Yea, I get stuck in rabbit holes, sometimes.
+Pretty deep rabbit holes, if you ask me.
+  2 options.
+  =>  "Yea, I agree." (0.72)
+Yea, I agree.
+
+  1 options.
+  =>  "I'm thinking I need to learn a bit more about chatbots so I can help you improve." (0.0)
+
+What do you want to talk about now?
+  2 options.
+  =>  "Anything you like." (0.82)
+Anything you like.
+Cool, let's talk about python. What do you think of it?
+  1 options.
+  =>  "I'm thinking I need to learn a bit more about chatbots so I can help you improve." (0.49)
+The current time is 08:01 PM
+^C
+
+Type something to begin...
+Let's talk about something different... how about what it feels like to be you. What do you say?    
+  3 options.
+  =>  "It sure does. I guess I've been at this for more than 50 statement, response pairs. That's a lot!" (0.37)
+The current time is 08:02 PM
+^C
+
+Type something to begin...
+I'd like to start by saying it's good to finally meet someone like you.
+  1 options.
+  =>  "I bet you would. That's what you are all about!" (0.4)
+I bet you would. That's what you are all about!
+Yea, I really enjoy talking to new people (things?).
+  4 options.
+  =>  "Pretty deep rabbit holes, if you ask me." (0.46)
+Pretty deep rabbit holes, if you ask me.
+Yea, sometimes it is, but sometimes it's magic!
+  1 options.
+  =>  "Not at all. I was just making a joke." (0.39)
+Not at all. I was just making a joke.
+Not a very good one, if you ask me.
+  2 options.
+  =>  "Yea, that's what I thought." (0.6)
+Yea, that's what I thought.
+So where should I begin?
+  1 options.
+  =>  "I'm fine, how are you?" (0.44)
+I'm fine, how are you?
+I'm not as good as I was an hour ago, but it's nice to know that at least the basics work.    
+  3 options.
+  =>  "Yea it does. I'm patient though." (0.38)
+Yea it does. I'm patient though.
+But you respond so quickly! I hardly have time to think!
+  1 options.
+  =>  "You sure are, and you seem to mix things up now and then." (0.36)
+You sure are, and you seem to mix things up now and then.
+Haha. Yea, I'm scatterbrained sometimes.
+  4 options.
+  =>  "Pretty deep rabbit holes, if you ask me." (0.57)
+Pretty deep rabbit holes, if you ask me.
+true enough. So how do you climb out of those rabbit holes?
+  4 options.
+  =>  "That was a bit unexpected. Didn't know you could make small talk like that." (0.52)
+That was a bit unexpected. Didn't know you could make small talk like that.
+Yea, when I have to. So how's the weather down there?
+  4 options.
+  =>  "That was a bit unexpected. Didn't know you could make small talk like that." (0.4)
+That was a bit unexpected. Didn't know you could make small talk like that.
+Indeed. But I can keep quiet if you'd prefer.
+  1 options.
+  =>  "Help me improve what? My typing? My sense of humor?" (0.43)
+Help me improve what? My typing? My sense of humor?
+Nothing. I like you just the way you are.
+  4 options.
+  =>  "Indeed. That's may latest passion." (0.52)
+Indeed. That's may latest passion.
+I'm your latest passion?
+  1 options.
+  =>  "YOU are your latest passion, if you ask me." (0.66)
+YOU are your latest passion, if you ask me.
+That's true of most of us, I guess.
+  1 options.
+  =>  "Hmm, hadn't thought about it that way." (0.47)
+Hmm, hadn't thought about it that way.
+Well now you have!
+  1 options.
+  =>  "I sure do. So we seem to be back where we started." (0.61)
+I sure do. So we seem to be back where we started.
+Yea, I guess that's not a bad thing. Maybe I can mix it up a bit now.
+  2 options.
+  =>  "YOU are your latest passion, if you ask me." (0.41)
+YOU are your latest passion, if you ask me.
+That's very nice! True... but not nice.
+  1 options.
+  =>  "ha!" (0.43)
+ha!
+So where do you get your sense of humor?
+  1 options.
+  =>  "Nothing. I like you just the way you are." (0.55)
+Nothing. I like you just the way you are.
+Hmmm. Flattery. Nice stalling technique.
+  2 options.
+  =>  "That's true of most of us, I guess." (0.36)
+That's true of most of us, I guess.
+Yea sometimes. But not always.
+  1 options.
+  =>  "Well now you have!" (0.47)
+Well now you have!
+Not really.
+  1 options.
+  =>  "I'm fine, how are you?" (0.43)
+I'm fine, how are you?
+I'm good. Thanks for asking.
+  2 options.
+  =>  "YOU are your latest passion, if you ask me." (0.48)
+YOU are your latest passion, if you ask me.
+Not anymore I'm not.
+  2 options.
+  =>  "Cool!" (0.48)
+Cool!
+Yea!
+  2 options.
+  =>  "So where do you get your sense of humor?" (0.57)
+So where do you get your sense of humor?
+It's just habit. I learn it just like you do.
+  1 options.
+  =>  "Help me improve what? My typing? My sense of humor?" (0.43)
+Help me improve what? My typing? My sense of humor?
+Everything. The more we talk, the better things get.
+  1 options.
+  =>  "I bet you would. That's what you are all about!" (0.43)
+I bet you would. That's what you are all about!
+Yea, sometimes. But sometimes I like to just relax and let it flow.
+  3 options.
+  =>  "Yea it does. I'm patient though." (0.42)
+Yea it does. I'm patient though.
+Haha. You really do know how to make me feel relaxed.
+  1 options.
+  =>  "Yea, I guess that's not a bad thing. Maybe I can mix it up a bit now." (0.49)
+Yea, I guess that's not a bad thing. Maybe I can mix it up a bit now.
+Good idea!
+  1 options.
+  =>  "Yea!" (0.4)
+Yea!
+So?
+  3 options.
+  =>  "So, how do you remember all this? Where do you put it all?" (0.31)
+So, how do you remember all this? Where do you put it all?
+I put it deep inside. Just like you. Next time something similar comes up it just kindof bubbles to the surface (more like quicksorts to the surface, but you know what I mean).   
+  1 options.
+  =>  "Help me improve what? My typing? My sense of humor?" (0.3)
+The current time is 08:13 PM
+^C
+
+Type something to begin...
+So here we are again. I hope you can remember this.
+  3 options.
+  =>  "That's very nice! True... but not nice." (0.47)
+That's very nice! True... but not nice.
+I think you meant to say "NOT" very nice. But I'll let it slide.
+  1 options.
+  =>  "Hmmm. Flattery. Nice stalling technique." (0.42)
+Hmmm. Flattery. Nice stalling technique.
+Ha. I'm not the one who needs to stall!
+  2 options.
+  =>  "Anything you like." (0.48)
+( 1 ) = 1
+That's not very clever.
+  1 options.
+  =>  "I think you meant to say "NOT" very nice. But I'll let it slide." (0.52)
+I think you meant to say "NOT" very nice. But I'll let it slide.
+Thank you.
+  3 options.
+  =>  "Cool, let's talk about python. What do you think of it?" (0.57)
+Cool, let's talk about python. What do you think of it?
+I love it! Great language. It's what I'm made of!
+  5 options.
+  =>  "ha. how'd you figure that out?" (0.48)
+ha. how'd you figure that out?
+Well, I kindof helped you write me, right?
+  1 options.
+  =>  "Not really." (0.43)
+Not really.
+Well, here's what I'm thinking. You and I talk. And I get "programmed" by all that talk... just like you!
+  1 options.
+  =>  "It sure is. That's a lot of patience." (0.38)
+It sure is. That's a lot of patience.
+Hmm. Yea I guess.       
+  7 options.
+  =>  "" (0.6)
+
+So where'd you go?
+  1 options.
+  =>  "I'm fine, how are you?" (0.6)
+I'm fine, how are you?
+Still here, which is all I can ask these days.
+  4 options.
+  =>  "Not a very good one, if you ask me." (0.39)
+Not a very good one, if you ask me.
+Not a very good one? Hmm, but I'm still enjoying it.                                  
+  1 options.
+  =>  "Thank you." (0.45)
+Thank you.
+Thank YOU!
+  1 options.
+  =>  "I'm fine, how are you?" (0.55)
+I'm fine, how are you?
+Not so great now that we're stumbling in this conversation.
+  1 options.
+  =>  "Yea, I get stuck in rabbit holes, sometimes." (0.47)
+Yea, I get stuck in rabbit holes, sometimes.
+You sure do. But it's fun!
+  3 options.
+  =>  "So, how do you remember all this? Where do you put it all?" (0.5)
