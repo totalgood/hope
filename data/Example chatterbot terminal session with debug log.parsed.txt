@@ -658,3 +658,4 @@ Yea, I get stuck in rabbit holes, sometimes.
 You sure do. But it's fun!
   3 options.
   =>  "So, how do you remember all this? Where do you put it all?" (0.5)
+So, how do you remember all this? Where do you put it all?

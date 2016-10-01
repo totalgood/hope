@@ -7,13 +7,12 @@ transition: fade  # none/fade/slide/convex/concave/zoom
 center: false
 ---
 
-## There's Hope for Chatbots
+# There's Hope for Chatbots
 
 ----------
 
 * Chatbots are Everywhere
-* Why?
-* Stroll through the ChatBot Zoo (Pandorabot)
+* Stroll through the ChatBot Zoo
 * Two Approaches
 * Breakthroughs
 * Python Chatbot Frameworks
@@ -30,13 +29,39 @@ center: false
 - Zukerberg's Personal Assistant
 - Siri
 
-<aside data-markdown="" class="notes">
+<div><aside data-markdown="" class="notes">
 How do they work?
 the innards of chatbots are hidden in a loAs I was researching chatbots
 The software behind Siri is the same as for a chatbot
 English in, English out
 Wrap it in STT and TTS and you've got Siri
-</aside>
+<aside></div>
+
+----------
+
+# Micromoments
+
+Friendly, slick sales bots
+
+*"You look great this morning."*
+
+*"Have a great day at work today."*
+
+<div><aside data-markdown="" class="notes">
+Flattery will get you everywhere
+As nice as it sounds, it's manipulative
+<aside></div>
+
+----------
+
+# Bot Community
+
+[PandoraBots](http://www.pandorabots.com/)
+
+* Like SquareSpace for bots
+* Grammar for Q&A (flash cards!)
+* Statistical ML too
+* Bots can talk to each other (APIs)
 
 ----------
 
@@ -51,7 +76,7 @@ Gorman: Whoa, conversations with an AI. Skynet is near.
 ELIZA : I see. What makes you feel that way?
 ```
 
-<aside data-markdown="" class="notes">
+<div><aside data-markdown="" class="notes">
 Joseph Weizenbaum  
 14 years after Turing test
 Reflection:  
@@ -59,7 +84,7 @@ Reflection:
 2. Repeat what they said  
 3. Replace "I" with "you"  
 4. Ask for details, emotions  
-</aside>
+<aside></div>
 
 ------------
 
@@ -70,154 +95,42 @@ Reflection:
 * Online learning is risky
 * "Prime Objective": Popularity 
 
-<aside data-markdown="" class="notes">
+<div><aside data-markdown="" class="notes">
 The core tech I'm going to show you is live  
 And it's even less sophisticated than Tai  
 So be careful  
-</aside>
+<aside></div>
 
 ----------
 
 # Gamergate
 
-Chatbots that
+* Chatbots ...
 
 * Coax users into being civil
 * Enforce behavior rules
 * Make harassers uncomfortable
 
-<aside data-markdown="" class="notes">
+<div><aside data-markdown="" class="notes">
 * 40% of harassers ceased when confronted with a bot
 * Most remaining "cured" with threats of penalty
 * Very few kick-bans required
 * Any gamers out there?
 * Run into any "referee" chatbots?
-</aside>
+<aside></div>
+
+
+# Chomsky
+
+
+- You: What's up?  
+- Chomsky: I am chatting with my friends on the internet.  
+- You: Cool! How do you do that?  
+- Chomsky: Always stay cool whatever the weather. It is sometimes difficult, but I stick at it.
 
 ----------
 
-# Micromoments
-
-* Friendly, slick sales bots
-
-> "You look great this morning."
-
-> "Have a great day at work today."
-
-<aside data-markdown="" class="notes">
-Flattery will get you everywhere
-As nice as it sounds, it's manipulative
-</aside>
-
-----------
-
-## Bot Community
-
-[PandoraBots](http://www.pandorabots.com/)
-
-* Like SquareSpace for bots
-* Grammar for Q&A (flash cards!)
-* Statistical ML too
-* Bots can talk to each other (APIs)
-
-----------
-
-## Example Grammar
-
-Who built Siri?
-
-<aside>
-* Predicate: What the subject of a sentence does or is
-* Interrogative Pronoun: asks a questions without identifying the noun
-* Pronoun: He, she, it, then but without refernce to a known noun
-* Who, what, where, when
-* Extract the predicate
-* Wiki the predicate and replace pronoun with the name of the page
-</aside>
-
-----------
-
-## Problem with Word2Vec
-
-> BFF  
-> 4EVAH  
-> XOXO  
-> &h!t  
-
-<aside data-markdown="" class="notes">
-pretrained on WSJ formal english  
-emoticons  
-slang  
-cursing  
-obfuscation  
-</aside> 
-
-----------
-
-## Grammar-Based
-
-* subject: the "primary" noun active noun phrase of a sentence 
-* predicate: verb phrase that says what happened to the subject
-
-<div><aside data-markdown="" class="notes">
-ELIZA used simple grammar rule called "reflection"  
-PandoraBots uses similar predicate-processing rule to answer questions 
-subject: Root of the AST In Parsey McParseface     
-predicate: depends on the subject  and the object?
-</aside></div>
-
-----------
-
-## Parsey McParseface](https://research.googleblog.com/2016/05/announcing-syntaxnet-worlds-most.html)
-
-**[SyntaxNet](https://github.com/tensorflow/models/tree/master/syntaxnet)**
-
-* Best Syntax-Tree tagger
-* Best POS tagger
-
-<div><aside data-markdown="" class="notes">
-Statistical training of grammar tagger!
-Used for grammar-based approaches
-</aside></div>
-
-----------
-
-## Chomsky
-
-
-> You: What's up?  
-> Chomsky: I am chatting with my friends on the internet.  
-> You: Cool! How do you do that?  
-> Chomsky: Always stay cool whatever the weather. It is sometimes difficult, but I stick at it.
-
-----------
-
-## [Josh's Mom](https://chatbotsmagazine.com/what-if-mom-had-a-chatbot-that-could-live-on-after-shes-gone-video-b9e11dab1937#.788p5kw6m)
-
-Hey Mom.  
-> Hello.  
-How are you?  
-> I'm doin' pretty good.  
-What are you doin'?  
-> I'm reading a book.  
-Hey, can you send me a photo of us?  
-> [bot sends photo] Remember this?  
-Yea... I do... I miss you.  
-> I miss you too.  
-
-<div><aside data-markdown class="notes">
-* Josh Bocanegra basing bot on Mother
-* CEO of Humai, a technology
-* To reduce and maybe prolong grief
-* Like Google maps, uses voice recordings, not TTS
-* Logic engine is similar to ChatterBot
-* We can use ChatterBot for "personality recording"
-* Like a telephone conversation recording, but dynamic
-</aside></div>
-
-----------
-
-## Smart, Useful bots
+# State of the Art Q&A
 
 * Google Now ("OK Google")
 * Siri
@@ -228,53 +141,84 @@ You probably don't think of these as chat bots
 But they are
 They just have voice recognition layer on top
 I'll show you how to add that to your bots too! (Sphinx)
-</aside></div>
+<aside></div>
 
 ----------
 
-## Sensitive Bots
-
-* [Viv](https://techcrunch.com/2015/02/20/viv-built-by-siris-creators-scores-12-5-million-for-an-ai-technology-that-can-teach-itself/): Dag Kittlaus
-
-Siri, but smarter
+# Sensitive Bots
 
 ----------
 
-* [The Chatbot Club](http://www.lifehacker.com.au/2016/05/meet-viv-the-future-of-chatbots-and-artificial-intelligence/): Linda Chang
+# [Josh's Mom](https://chatbotsmagazine.com/what-if-mom-had-a-chatbot-that-could-live-on-after-shes-gone-video-b9e11dab1937#.788p5kw6m)
 
-Mimics your personality on FB (you're sensitive, aren't you?)
+- Josh: Hey Mom.  
+- Mom: Hello.  
+- Josh: How are you?  
+- Mom: I'm doin' pretty good.  
+- Josh: What are you doin'?  
+- Mom: I'm reading a book.  
+- Josh: Hey, can you send me a photo of us?  
+- Mom: [sends photo] Remember this?  
+- Josh: Yea... I do... I miss you.  
+- Mom: I miss you too.  
+
+<div><aside data-markdown class="notes">
+* Josh Bocanegra basing bot on Mother
+* CEO of Humai, a technology
+* To reduce and maybe prolong grief
+* Like Google maps, uses voice recordings, not TTS
+* Logic engine is similar to ChatterBot
+* We can use ChatterBot for "personality recording"
+* Like a telephone conversation recording, but dynamic
+<aside></div>
 
 ----------
 
-## Koko (MIT)
+# [Viv](https://techcrunch.com/2015/02/20/viv-built-by-siris-creators-scores-12-5-million-for-an-ai-technology-that-can-teach-itself/)
+
+* Dag Kittlaus
+* Siri, but smarter
+* Online Learning (like Tai)
+
+----------
+
+# [The Chatbot Club](http://www.lifehacker.com.au/2016/05/meet-viv-the-future-of-chatbots-and-artificial-intelligence/)
+
+* Linda Chang
+* Mimics your personality on FB
+* (you're sensitive, aren't you?)
+
+----------
+
+# Koko (MIT)
 
 Ground-up design for empathy
 
 ----------
 
-## [Allo](https://research.googleblog.com/2016/05/chat-smarter-with-allo.html)
+# [Allo](https://research.googleblog.com/2016/05/chat-smarter-with-allo.html)
 
 * LSTM
 * TensorFlow
 
 <div><aside data-markdown="" class="notes">
 "Smarter" Chat by Google
-</aside></div>
+<aside></div>
 
 ---
 
-## Experiments
+# Experiments
 
 ----------
 
-## [Speakeasy](http://lauragelston.ghost.io/)
+# [Speakeasy](http://lauragelston.ghost.io/)
 
 * Character-level LSTM NN
 * Quickly goes "off the rails"
 
 ----------
 
-## [Mitsuku](http://www.mitsuku.com/)
+# [Mitsuku](http://www.mitsuku.com/)
 
 * 2013 Winner of the Loebnez Prize!
 * [Chat with it]((http://www.square-bear.co.uk/mitsuku/nfchat.htm)) yourself
@@ -285,26 +229,26 @@ Ground-up design for empathy
 Most human-like open chatbot in 2013
 "Stands her ground" in an argument
 Large ontology backend (knowledge base)
-</aside></div>
+<aside></div>
 
 ----------
 
-## How?
+# How?
 
 * regular expressions?
 * statistical models (Markhov Chains)?
 * logical grammar?
 
-> * YES!
+* **YES!**
 
 <div><aside data-markdown="" class="notes">
 Chatterbot allows plugin of multiple LogicAdapters
 So lets do them all!
-</aside></div>
+<aside></div>
 
 ---
 
-## Statistical Language Models
+# Statistical Language Models
 
 1. BOC (cryptography)
 2. BOW (spam filters)
@@ -316,69 +260,120 @@ So lets do them all!
 More and more data required
 More and more realism/fidelity/robustness
 SOC RNN (LSTM) required for sophisticated/flexible chatbot (e.g. Tai, Siri, Google Assistant)
-</aside></div>
+<aside></div>
 
 ----------
 
-## Word Vectors
+# Word Vectors
 
 * LSI/PCA (Gensim)
 * LDA (Gensim)
 * Neural Nets (Word2Vec)
 
 <div><aside data-markdown="" class="notes">
+<aside></div>
+
+----------
+
+# Bags of Words
+
+```
+0         ['python', 'never', 'stop', 'learning', 'what'...
+1                       ['Watching', 'Boa', 'vs', 'Python']
+2         ['Monty', 'Python', 'The', 'silly', 'walk', 'v...
+3         ['Senior', 'Software', 'Engineer', 'Full', 'St...
+4         ['Architect', 'Django', 'Solr', 'Platform', 'E...
+5           ['peaceful', 'rain', 'Python', 'inevitability']
+```
+
+----------
+
+# Sparse Vectors
+
+```
+0         [(0, 1), (1, 1), (2, 1), (3, 1), (4, 1), (5, 1...
+1                        [(8, 1), (9, 1), (10, 1), (11, 1)]
+2         [(11, 1), (12, 1), (13, 1), (14, 1), (15, 1), ...
+3         [(11, 1), (18, 1), (19, 1), (20, 1), (21, 1), ...
+4         [(11, 1), (18, 1), (20, 1), (23, 1), (27, 1), ...
+5                      [(11, 1), (37, 1), (38, 1), (39, 1)]
+```
+
+----------
+
+# Topic Vectors
+
+<img src="/scatter-matrix-topic-example.png">
+
+----------
+
+# Grammar-Based
+
+* subject: the "primary" noun active noun phrase of a sentence 
+* predicate: verb phrase that says what happened to the subject
+
+<div><aside data-markdown="" class="notes">
+ELIZA used simple grammar rule called "reflection"  
+PandoraBots uses similar predicate-processing rule to answer questions 
+subject: Root of the AST In Parsey McParseface     
+predicate: depends on the subject  and the object?
+<aside></div>
+
+----------
+
+# [Parsey McParseface](https://research.googleblog.com/2016/05/announcing-syntaxnet-worlds-most.html)
+
+**[SyntaxNet](https://github.com/tensorflow/models/tree/master/syntaxnet)**
+
+* Best Syntax-Tree tagger
+* Best POS tagger
+
+<div><aside data-markdown="" class="notes">
+Statistical training of grammar tagger!
+Used for grammar-based approaches
+<aside></div>
+
+----------
+
+# Example Grammar
+
+Process this sentence:
+
+> "Who invented chatbots?"
+
+Now this:
+
+> "Can you tell me who invented chatbots?"
+
+<div><aside data-markdown="" class="notes">
+* Predicate: What the subject of a sentence does or is
+* Interrogative Pronoun: asks a questions without identifying the noun
+* Pronoun: He, she, it, then but without refernce to a known noun
+* Who, what, where, when
+* Extract the predicate
+* Wiki the predicate and replace pronoun with the name of the page
+<aside></div>
+
+----------
+
+# Problem with Word2Vec
+
+> BFF  
+> 4EVAH  
+> XOXO  
+> &h!t  
+
+<div><aside data-markdown="" class="notes">
+pretrained on WSJ formal english  
+emoticons  
+slang  
+cursing  
+obfuscation  
 </aside></div>
 
 ----------
 
-## Python Options
-
-* Wil
-* **Chatterbot**
-
-
-----------
-
-## Logic Adapter
-
-----------
-
-## DB Model Enhancements
-
-----------
-
-## Chat Age
-
-* Flesch-Kincaid Grade level
-* [Google NGram DB](https://books.google.com/ngrams) mean year
-
-----------
-
-## Sentiment 
-
-* `NLTK`'s VADER by Hutto, C.J. & Gilbert
-* 3-D "valence": positivitity, negativity, neutrality
-* 1-D intensity
-
-----------
-
-## Sarcasm
-
-* trained on #sarcasm in twitter
-* need context to improve on 70% accuracy
-
-----------
-
-## Kindness
-
-Positivity / Sarcasm - Intensity - Negativity / Sarcasm + Readability + Chat Age
-
-* curse words?
-* use of "you" as multiplier?
-
-----------
-
-## New Hope
+# New Hope
 
 - Grammar: [SyntaxNet](https://github.com/tensorflow/models/tree/master/syntaxnet)
 - Statistics: [Word2Vec & Gensim](https://radimrehurek.com/gensim/models/word2vec.html)
@@ -414,51 +409,78 @@ Positivity / Sarcasm - Intensity - Negativity / Sarcasm + Readability + Chat Age
 * core to Watson  
 * DBPedia, SUMO, WordNet  
 
-</aside></div>
+<aside></div>
+
+----------
+
+# Python Chatbot Options
+
+----------
+
+# Will
+
+<img src="/will.png">
+
+-----------
+
+# ChatterBot
+
+<img src="/chatterbot-banner.png">
 
 ---------- 
 
-## How Do I Make Hope Talk!
+# I Want Hope to Talk!
 
-* Best Speech Synthesizer (TTS): [WaveNet](https://arxiv.org/pdf/1609.03499.pdf)
-
-(and Listen)
-
-* Best Speech Transcription (STT): [LSTM RNNs](https://research.googleblog.com/2015/08/the-neural-networks-behind-google-voice.html)
+* Best Speech Recognition (: [WaveNet](https://arxiv.org/pdf/1609.03499.pdf)
+* Best Speech Synthesis (TTS): [WaveNet](https://arxiv.org/pdf/1609.03499.pdf)
 
 <div><aside data-markdown="" class="notes">
-WaveNet is open source!
-Best speech recognition packages are closed source
-Google describes architecture (LSTM)
-and Speech recognition are easily trained
-and Kaldi, Sphinx are pretty good (Gaussian Mixture Models)
-</aside></div>
+- WaveNet is open source!  
+- Best speech recognition packages are closed source  
+- Google describes architecture (LSTM)  
+- and Speech recognition are easily trained
+- and Kaldi, Sphinx are pretty good (Gaussian Mixture Models)
+<aside></div>
 
 ----------
 
-<div><aside markdown-data class="notes">
-I'm going to show you how to build a prosocial chatbot, or at the very least least, a bot that  isn't antisocial. In the process you're going to get a peak into the technology used by most AI systems that interract in a natural way. But before all that I'd like to explain why I'm so passionate about chatbots. After all, most of them that we interract with are pretty annoying, almost infantile. They can be fun to play with, but aren't usualy all that helpful. And sometimes it's downright dehumanizing to be forced to deal with a machine when you know there's a human out there watching all the text stream by just waiting for you to say the magic word to step in and help you complete you get the information you need or complete your purchase. But for the call center personel who previously were treated like robots themselves, forced to click through a logic tree of questions and responses, all day long, it's probably a bit empowering. They finaly have a pet to keep them entertained while they work to help you solve your problem. 
-</aside></div>
-
-<div><aside markdown-data class="notes">
-And if you need a bigger picture reason, consider the concerns of Gates, Musk, Bostrom, and Chace who title their concerns "Surviving AI" or talk about a "Superintelligence Explosion" that could destroy human civilization. That's what inspires me. In the back of my mind I've convinced myself I've fighting the good fight on behalf of the human race. The big robotic machines called Google, Apple, Microsoft, or even Canonical. These bots have a one-tracked mind. They want to sell you something. The can listen to you, and give you new and interesting information and fun things to do, but they are always just waiting to pounce with just the right product to manipulate you into wanting. That maniuplative employment of "influence techniques" is antisocial, not social. So if we let corporations build our bots, none of them will have a soul. And more and more, we are being left out of the conversation. Bots are talking to each other through web APIs. Even if we monitored the traffic, it wouldn't be much fun reading through all the log files to look for bot conspiracies. We humans have the good manners to use the language of those around us rather than having coded conversations behind our neighbors' back. Or bots should be so polite.
-</aside></div>
-
-<div><aside markdown-data class="notes">
-There are two approaches to chatbots that are working pretty well right now. We're going to combine both.  There's Will with his good manners and rules for action. He can answer your questions and obey your commands, because under the hood he has a graph of logic rules encoded into regular expressions and python conditionals (if-then-else). But if you step just outside of the bounds of what he understands by saying something like "tank u", his logic might get befuddled and Will will be speechless, unable to respond with his oft-used but enthusiastic response "Your welcome!".
-</aside></div>
-
-<div><aside markdown-data class="notes">
-So once you teach your bot manners you can expand its repertoire more quickly with Machine Learning. Like an authoritarian, over-protective parent you can discover the magic of letting a child learn from its own mistakes and successes. And eventually you can no longer tell them to "do what I say, not what I do." That's the approach of bots like "Salvius" (`ChatterBot`). Salvius imitates the conversations he sees his parents (the human race) to. So all you need to do is socialize him by giving him a homelessman disguise and he'll learn from the conversations of all the passersby around him. Or, if you want to give him a crash course, just feed him a bunch of "call and response" musical lyrics or Shakespeare dialog and he'll be speaking like a born thesbian in no time. You can culture your bot any way you like.
-</aside></div>
-
-<div><aside markdown-data class="notes">
-When we first domesticated wolves and ungulates, we chose those that were most domesticatable. When we tried with foxes and bears and other animals, we quickly learned our lesson that some things are teachable and some things aren't. Those that could obey our rules, like sitting back away from the campfire and hearth and waiting us to finish our meal before cleaning up our scraps. But they weren't pups when we first encountered them. When we raise our own children we just use baby talk to get their mouths moving and try to have conversations around them so they know what conversations look like. So we're going to start with Salvius, the imitation bot by Gunther Cox (who started the Salvious project as a High School science experiment!).
-</aside></div>
+# ChatterBot Logic Adapter
 
 ----------
 
-## Advanced Features
+# Chat Age
+
+* Flesch-Kincaid Grade level
+* [Google NGram DB](https://books.google.com/ngrams) mean year
+
+----------
+
+# Sentiment 
+
+* Valence + Intensity
+* `NLTK`'s VADER by Hutto, C.J. & Gilbert
+* 2-D emotion: valence + intensity
+* pos, neg, neu, compound
+
+----------
+
+# Sarcasm
+
+* trained on #sarcasm in twitter
+* need context to improve on 70% accuracy
+
+----------
+
+# Kindness
+
+Positivity / Sarcasm - Intensity - Negativity / Sarcasm + Readability + Chat Age
+
+* curse words?
+* "you" multiplier?
+
+----------
+
+# Advanced Features
 
 - Analogy/generalization mad libs:
   - find words that appear in both statement and response
@@ -469,32 +491,113 @@ When we first domesticated wolves and ungulates, we chose those that were most d
 
 ----------
 
-## Bags of Words
-
-```python
-0         ['python', 'never', 'stop', 'learning', 'what'...
-1                       ['Watching', 'Boa', 'vs', 'Python']
-2         ['Monty', 'Python', 'The', 'silly', 'walk', 'v...
-3         ['Senior', 'Software', 'Engineer', 'Full', 'St...
-4         ['Architect', 'Django', 'Solr', 'Platform', 'E...
-5           ['peaceful', 'rain', 'Python', 'inevitability']
-```
+# Neural Nets
 
 ----------
 
-## Sparse Vectors
+# Cole's Bot
 
-```python
-0         [(0, 1), (1, 1), (2, 1), (3, 1), (4, 1), (5, 1...
-1                        [(8, 1), (9, 1), (10, 1), (11, 1)]
-2         [(11, 1), (12, 1), (13, 1), (14, 1), (15, 1), ...
-3         [(11, 1), (18, 1), (19, 1), (20, 1), (21, 1), ...
-4         [(11, 1), (18, 1), (20, 1), (23, 1), (27, 1), ...
-5                      [(11, 1), (37, 1), (38, 1), (39, 1)]
-```
+- You: You are a jokester.
+- Bot: I know .
+- You: Lots of funny jokes.
+- Bot: I don ' t know about it .
+- You: Yes you do.
+- Bot: Why do you want me to kill me ?
+- You: I don't.
+- Bot: You do .
+- You: Really?
+- Bot: Yeah .
+- You: You are wrong about that.
+- Bot: I ' m not .
+- You: You certainly are stubborn.
+- Bot: I know it .
 
-----------
+[Cole pulls the plug]
 
-## Topic Vectors
+<div><aside markdown-data class="notes">
+Movie Scripts  
+LSTM word-sequence model   
+Based on Google Translate NN  
+Padding to deal with differing response/statement len  
+<aside></div>
 
-<img src='scatter-matrix-topic-example.png'>
+-------------
+
+# Chatterbot Comes with 
+
+- math logic (one thousand plus two?)
+- time logic (what day is tomorrow?)
+- Levenshtein distance matching
+
+-------------
+
+# Chatterbot Babytalk
+
+- Hi!
+-   =>  "Hi!" (0)
+- Hi!
+- Hello!
+-   =>  "Hi!" (0)
+- Hello!
+- How are you?
+-   1 options.
+-   =>  "Hello!" (0.13)
+- Hello!
+- What's up?
+-   1 options.
+-   =>  "Hello!" (0.15)
+- Hello!
+- What's up?
+-   1 options.
+-   =>  "Hello!" (0.15)
+
+-------------
+
+# Chatterbot Todling
+
+- So here we are again. I hope you can remember this.
+-   3 options.
+-  =>  "That's very nice! True... but not nice." (0.47)
+- That's very nice! True... but not nice.
+- I think you meant to say "NOT" very nice. But I'll let it slide.
+-   1 options.
+-   =>  "Hmmm. Flattery. Nice stalling technique." (0.42)
+- Hmmm. Flattery. Nice stalling technique.
+- Ha. I'm not the one who needs to stall!
+-   2 options.
+-  =>  "Anything you like." (0.48)
+- ( 1 ) = 1
+- That's not very clever.
+-  1 options.
+-  =>  "I think you meant to say "NOT" very nice. But I'll let it slide." (0.52)
+- I think you meant to say "NOT" very nice. But I'll let it slide.
+- Thank you.
+-   3 options.
+-  =>  "Cool, let's talk about python. What do you think of it?" (0.57)
+- Cool, let's talk about python. What do you think of it?
+
+-------------
+
+# Chatterbot Todling
+
+- I love it! Great language. It's what I'm made of!
+-   5 options.
+-   =>  "ha. how'd you figure that out?" (0.48)
+- ha. how'd you figure that out?
+- Well, I kindof helped you write me, right?
+-  1 options.
+-   =>  "Not really." (0.43)
+- Not really.
+- Well, here's what I'm thinking. You and I talk. And I get "programmed" by all that talk... just like you!
+-   1 options.
+-   =>  "It sure is. That's a lot of patience." (0.38)
+- It sure is. That's a lot of patience.
+- Hmm. Yea I guess.       
+-   7 options.
+-   =>  "" (0.6)
+- 
+- So where'd you go?
+-   1 options.
+-   =>  "I'm fine, how are you?" (0.6)
+- I'm fine, how are you?
+
