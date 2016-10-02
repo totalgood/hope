@@ -1,3 +1,13 @@
+## Chatbots
+
+[PandoraBots](http://www.pandorabots.com/)
+[Josh's Mom](https://chatbotsmagazine.com/what-if-mom-had-a-chatbot-that-could-live-on-after-shes-gone-video-b9e11dab1937#.788p5kw6m)
+[Viv](https://techcrunch.com/2015/02/20/viv-built-by-siris-creators-scores-12-5-million-for-an-ai-technology-that-can-teach-itself/)
+[The Chatbot Club](http://www.lifehacker.com.au/2016/05/meet-viv-the-future-of-chatbots-and-artificial-intelligence/)
+[Allo](https://research.googleblog.com/2016/05/chat-smarter-with-allo.html)
+[Speakeasy](http://lauragelston.ghost.io/)
+[Mitsuku](http://www.mitsuku.com/)
+
 ## Academic Papers
 
 - "A longitudinal study of cyberbullying: Examining risk and protective factors"[1]
@@ -15,10 +25,12 @@
 [Jones]: http://www.noswearing.com/about.php "No Swear List & Curse Filter"
 
 ## Data
-Sc1enceClosedOpened
 
 - [twitter corpora and lexica](http://saifmohammad.com/WebPages/lexicons.html)
 - [niderhoff list of NLP datasets](https://github.com/niderhoff/nlp-datasets)
+- [Gutenberg](https://en.wikipedia.org/wiki/Project_Gutenberg)
+- [Google Books N-Grams](http://storage.googleapis.com/books/ngrams/books/datasetsv2.html)
+- [YAGO (Ontology/Knowledge-Base)](https://en.wikipedia.org/wiki/YAGO_(database))
 
 ## Software Tutorials
 
@@ -29,5 +41,8 @@ Sc1enceClosedOpened
 
 ## Open Source Software
 
+- [Parsey McParseface](https://research.googleblog.com/2016/05/announcing-syntaxnet-worlds-most.html)
+- [SyntaxNet (Parsey's Formal Name)](https://github.com/tensorflow/models/tree/master/syntaxnet)
+- [Word2Vec & Gensim](https://radimrehurek.com/gensim/models/word2vec.html)
 - [Tweet Impact Predictor (twip)](http://github.com/totalgood/twip)
 - [There's Hope for Chatbots (hope)](http://github.com/totalgood/hope)
