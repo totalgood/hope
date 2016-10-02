@@ -46,3 +46,7 @@
 - [Word2Vec & Gensim](https://radimrehurek.com/gensim/models/word2vec.html)
 - [Tweet Impact Predictor (twip)](http://github.com/totalgood/twip)
 - [There's Hope for Chatbots (hope)](http://github.com/totalgood/hope)
+- [Sphinx Speech Recognition](https://pypi.python.org/pypi/SpeechRecognition/)
+- [WaveNet Text to Speech](https://arxiv.org/pdf/1609.03499.pdf)
+- [Google N-Gram Viewer](Google NGram DB](https://books.google.com/ngrams)
+- [Tensor Flow Playground (D3)](https://playground.tensorflow.org)
