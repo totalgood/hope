@@ -431,15 +431,15 @@ obfuscation
 
 # I Want Hope to Talk!
 
-* Best Speech Recognition (: [WaveNet](https://arxiv.org/pdf/1609.03499.pdf)
+* Best Speech Recognition (Sphinx): [Sphinx](https://pypi.python.org/pypi/SpeechRecognition/)
 * Best Speech Synthesis (TTS): [WaveNet](https://arxiv.org/pdf/1609.03499.pdf)
 
 <div><aside data-markdown="" class="notes">
-WaveNet is open source!
-Best speech recognition packages are closed source
-Google describes architecture (LSTM)
-and Speech recognition are easily trained
-and Kaldi, Sphinx are pretty good (Gaussian Mixture Models)
+- WaveNet is open source!  
+- Best speech recognition packages are closed source  
+- Google describes architecture (LSTM)  
+- and Speech recognition are easily trained
+- and Kaldi, Sphinx are pretty good (Gaussian Mixture Models)
 <aside></div>
 
 ----------
@@ -476,7 +476,7 @@ and Kaldi, Sphinx are pretty good (Gaussian Mixture Models)
 Positivity / Sarcasm - Intensity - Negativity / Sarcasm + Readability + Chat Age
 
 * curse words?
-* use of "you" as multiplier?
+* "you" multiplier?
 
 ----------
 
@@ -523,6 +523,14 @@ Padding to deal with differing response/statement len
 
 -------------
 
+# Chatterbot Comes with 
+
+- math logic (one thousand plus two?)
+- time logic (what day is tomorrow?)
+- Levenshtein distance matching
+
+-------------
+
 # Chatterbot Babytalk
 
 - Hi!
@@ -545,7 +553,7 @@ Padding to deal with differing response/statement len
 
 -------------
 
-# Chatterbot Toddling
+# Chatterbot Todling
 
 - So here we are again. I hope you can remember this.
 -   3 options.
@@ -570,7 +578,7 @@ Padding to deal with differing response/statement len
 
 -------------
 
-# Chatterbot Toddling
+# Chatterbot Todling
 
 - I love it! Great language. It's what I'm made of!
 -   5 options.
