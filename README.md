@@ -6,9 +6,14 @@ A hopeful, thoughtful chatbot.
 
 Detect and predict sarcasm and bullying in order to mediate conflicts and create a more compassionate social network.
 
-## References
+## Resources
 
-- [PyDx Proposal](https://github.com/totalgood/hope/blob/master/docs/PyDx%20Proposal.md)
-- [Academic Papers](https://github.com/totalgood/hope/blob/master/docs/PyDx%20Proposal.md)
+- [PyDX Slides](totalgood.github.io/hope)
+- [Data (Corpora & Lexica)](https://github.com/totalgood/hope/blob/master/docs/resources.md#data)
+- [Chatbots](https://github.com/totalgood/hope/blob/master/docs/resources.md#chatbots)
+- [Academic Papers](https://github.com/totalgood/hope/blob/master/docs/resources.md#academic-papers)
+- [Tools](https://github.com/totalgood/hope/blob/master/docs/resources.md#software-tutorials)
+- [Open Source Tools](https://github.com/totalgood/hope/blob/master/docs/resources.md#open-source-software)
+
 
 
