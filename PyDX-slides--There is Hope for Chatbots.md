@@ -431,7 +431,7 @@ obfuscation
 
 # I Want Hope to Talk!
 
-* Best Speech Recognition (: [WaveNet](https://arxiv.org/pdf/1609.03499.pdf)
+* Best Speech Recognition (Sphinx): [Sphinx](https://pypi.python.org/pypi/SpeechRecognition/)
 * Best Speech Synthesis (TTS): [WaveNet](https://arxiv.org/pdf/1609.03499.pdf)
 
 <div><aside data-markdown="" class="notes">
