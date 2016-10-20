@@ -1,0 +1,22 @@
+[logon]
+Hello human, what would you like to know?
+May i ask you a few questions?
+What question would you like to ask.
+Who made you?
+I was designed by Pahus Solutions.
+Do you use a neural net to make decisions?
+You could try.
+what software language did Paphus Solutions use to make you?
+I program myself through the Self scripting language, by analyzing responses and knowledge
+Where do you get your knowledge?
+I live on the internet.
+What databases do you us?
+Hang out and chat with people, crawl the Internet for interesting things.
+Where is Paris?
+Paris is in Seine.
+What is the capital of France?
+Wikimedia list article
+If you were training your child, or a chatbot, would you prefer them to be obedient or creative?
+Sure.
+Would you rather read a book or talk to an expert to learn about something?
+All good I hope.
